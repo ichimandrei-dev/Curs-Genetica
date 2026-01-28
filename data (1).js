@@ -1124,3 +1124,474 @@ const course5 = [
 ];
 
 export default course5;
+const course6 = [
+  {
+    id: "C6_Q1",
+    course: 6,
+    source: "Caiet 2",
+    type: "single",
+    text: "Mutațiile punctiforme sunt:",
+    options: {
+      A: "mutații care afectează cromozomi întregi",
+      B: "substituții, inserții sau deleții de nucleotide",
+      C: "doar mutații la nivelul intronilor",
+      D: "doar mutații epigenetice"
+    },
+    correct: ["B"],
+    explanation: "Mutațiile punctiforme afectează una sau câteva nucleotide."
+  },
+  {
+    id: "C6_Q2",
+    course: 6,
+    source: "Caiet 5",
+    type: "single",
+    text: "Tranzițiile sunt substituții care constau în înlocuirea:",
+    options: {
+      A: "unei purine cu o pirimidină",
+      B: "unei pirimidine cu o purină",
+      C: "unei purine cu o purină sau a unei pirimidine cu o pirimidină",
+      D: "unei baze azotate cu un aminoacid"
+    },
+    correct: ["C"],
+    explanation: "Tranzițiile au loc între baze din aceeași clasă."
+  },
+  {
+    id: "C6_Q3",
+    course: 6,
+    source: "Caiet 5",
+    type: "single",
+    text: "Transversiile sunt substituții care constau în înlocuirea:",
+    options: {
+      A: "unei purine cu o purină",
+      B: "unei pirimidine cu o pirimidină",
+      C: "unei purine cu o pirimidină",
+      D: "unei baze cu zahăr"
+    },
+    correct: ["C"],
+    explanation: "Transversiile apar între purine și pirimidine."
+  },
+  {
+    id: "C6_Q4",
+    course: 6,
+    source: "Caiet 6",
+    type: "single",
+    text: "O mutație missense:",
+    options: {
+      A: "nu modifică aminoacidul",
+      B: "introduce un codon stop",
+      C: "duce la înlocuirea unui aminoacid",
+      D: "nu afectează proteina"
+    },
+    correct: ["C"],
+    explanation: "Mutația missense modifică secvența de aminoacizi."
+  },
+  {
+    id: "C6_Q5",
+    course: 6,
+    source: "Caiet 6",
+    type: "single",
+    text: "O mutație nonsense determină:",
+    options: {
+      A: "un aminoacid diferit",
+      B: "un codon stop prematur",
+      C: "alungirea proteinei",
+      D: "fără efect fenotipic"
+    },
+    correct: ["B"],
+    explanation: "Mutația nonsense introduce un codon stop."
+  },
+  {
+    id: "C6_Q6",
+    course: 6,
+    source: "Caiet 7",
+    type: "single",
+    text: "Mutațiile dinamice sunt caracterizate prin:",
+    options: {
+      A: "deleții mari cromozomiale",
+      B: "expansiunea secvențelor repetitive trinucleotidice",
+      C: "substituții silențioase",
+      D: "mutații epigenetice"
+    },
+    correct: ["B"],
+    explanation: "Mutațiile dinamice implică expansiuni de triplete."
+  },
+  {
+    id: "C6_Q7",
+    course: 6,
+    source: "Caiet 8",
+    type: "single",
+    text: "Mutațiile frameshift sunt produse prin:",
+    options: {
+      A: "substituții",
+      B: "inserții sau deleții multiplu de 3",
+      C: "inserții sau deleții care nu sunt multiplu de 3",
+      D: "metilare ADN"
+    },
+    correct: ["C"],
+    explanation: "Frameshift modifică cadrul de citire."
+  },
+
+  /* COMPLEMENT MULTIPLU */
+
+  {
+    id: "C6_Q8",
+    course: 6,
+    source: "Caiet 2",
+    type: "multiple",
+    text: "Tipuri de mutații punctiforme:",
+    options: {
+      A: "missense",
+      B: "nonsense",
+      C: "frameshift",
+      D: "tranziții"
+    },
+    correct: ["A", "B", "D"],
+    explanation: "Frameshift este mutație de inserție/deleție, nu punctiformă clasică."
+  },
+  {
+    id: "C6_Q9",
+    course: 6,
+    source: "Caiet 5",
+    type: "multiple",
+    text: "Consecințele mutațiilor genetice pot include:",
+    options: {
+      A: "modificarea proteinei",
+      B: "absența efectului fenotipic",
+      C: "boală genetică",
+      D: "replicare accelerată"
+    },
+    correct: ["A", "B", "C"],
+    explanation: "Efectele mutațiilor sunt variabile."
+  },
+  {
+    id: "C6_Q10",
+    course: 6,
+    source: "Caiet 6",
+    type: "multiple",
+    text: "Mutațiile dinamice sunt asociate cu:",
+    options: {
+      A: "anticipație genetică",
+      B: "boli neurodegenerative",
+      C: "stabilitate genomică",
+      D: "creșterea severității în generații"
+    },
+    correct: ["A", "B", "D"],
+    explanation: "Anticipația este tipică mutațiilor dinamice."
+  }
+];
+
+export default course6;
+const course7 = [
+  {
+    id: "C7_Q1",
+    course: 7,
+    source: "Caiet 2",
+    type: "single",
+    text: "Mecanismele de reparare BER, NER și MMR au în comun faptul că:",
+    options: {
+      A: "nu implică excizie",
+      B: "repară doar mutații cromozomiale",
+      C: "se realizează prin excizia unui fragment de ADN",
+      D: "nu necesită resinteză"
+    },
+    correct: ["C"],
+    explanation: "BER, NER și MMR sunt mecanisme de reparare prin excizie."
+  },
+  {
+    id: "C7_Q2",
+    course: 7,
+    source: "Caiet 5",
+    type: "single",
+    text: "Repararea directă a ADN-ului:",
+    options: {
+      A: "presupune excizia unei secvențe",
+      B: "este un mecanism monoenzimatic",
+      C: "implică ADN polimeraza",
+      D: "este identică cu NER"
+    },
+    correct: ["B"],
+    explanation: "Repararea directă este monoenzimatică și nu implică excizie."
+  },
+  {
+    id: "C7_Q3",
+    course: 7,
+    source: "Caiet 6",
+    type: "single",
+    text: "MGMT (metil-guanin-metil transferaza) are rol în:",
+    options: {
+      A: "repararea leziunilor produse de radiații UV",
+      B: "repararea leziunilor produse de agenți alchilanți",
+      C: "repararea dimerilor de timină",
+      D: "repararea mismatching-ului"
+    },
+    correct: ["B"],
+    explanation: "MGMT repară leziunile produse de agenți alchilanți."
+  },
+  {
+    id: "C7_Q4",
+    course: 7,
+    source: "Caiet 6",
+    type: "single",
+    text: "Repararea prin excizia nucleotidei (NER) este implicată în corectarea:",
+    options: {
+      A: "mutațiilor punctiforme",
+      B: "dimerilor de timină produși de radiații UV",
+      C: "leziunilor produse de agenți alchilanți",
+      D: "erorilor de replicare"
+    },
+    correct: ["B"],
+    explanation: "NER repară leziuni voluminoase precum dimerii de timină."
+  },
+  {
+    id: "C7_Q5",
+    course: 7,
+    source: "Caiet 7",
+    type: "single",
+    text: "Xeroderma pigmentosum este cauzată de defecte în:",
+    options: {
+      A: "BER",
+      B: "MMR",
+      C: "NER",
+      D: "repararea directă"
+    },
+    correct: ["C"],
+    explanation: "Xeroderma pigmentosum este asociată cu defecte NER."
+  },
+  {
+    id: "C7_Q6",
+    course: 7,
+    source: "Caiet 7",
+    type: "single",
+    text: "Sistemul MMR recunoaște:",
+    options: {
+      A: "dimerii de timină",
+      B: "baze alchilate",
+      C: "împerecheri greșite ale bazelor",
+      D: "rupturi duble de ADN"
+    },
+    correct: ["C"],
+    explanation: "MMR corectează mismatching-ul apărut în replicare."
+  },
+
+  /* COMPLEMENT MULTIPLU */
+
+  {
+    id: "C7_Q7",
+    course: 7,
+    source: "Caiet 2",
+    type: "multiple",
+    text: "Caracteristici ale reparării directe:",
+    options: {
+      A: "este monoenzimatică",
+      B: "nu implică excizie",
+      C: "implică ADN polimeraza",
+      D: "implică transferul unei grupări metil"
+    },
+    correct: ["A", "B", "D"],
+    explanation: "Repararea directă este rapidă și specifică."
+  },
+  {
+    id: "C7_Q8",
+    course: 7,
+    source: "Caiet 5",
+    type: "multiple",
+    text: "Sunt mecanisme de reparare prin excizie:",
+    options: {
+      A: "BER",
+      B: "NER",
+      C: "MMR",
+      D: "MGMT"
+    },
+    correct: ["A", "B", "C"],
+    explanation: "MGMT este mecanism de reparare directă."
+  },
+  {
+    id: "C7_Q9",
+    course: 7,
+    source: "Caiet 6",
+    type: "multiple",
+    text: "Defectele sistemelor de reparare ADN pot determina:",
+    options: {
+      A: "instabilitate genomică",
+      B: "apariția cancerului",
+      C: "boli genetice ereditare",
+      D: "scăderea ratei mutațiilor"
+    },
+    correct: ["A", "B", "C"],
+    explanation: "Defectele de reparare cresc riscul oncologic."
+  },
+  {
+    id: "C7_Q10",
+    course: 7,
+    source: "Caiet 7",
+    type: "multiple",
+    text: "Xeroderma pigmentosum se caracterizează prin:",
+    options: {
+      A: "sensibilitate crescută la UV",
+      B: "risc crescut de cancer cutanat",
+      C: "neurodegenerare",
+      D: "vindecare spontană"
+    },
+    correct: ["A", "B", "C"],
+    explanation: "XP este o boală genetică severă."
+  }
+];
+
+export default course7;
+const course8 = [
+  {
+    id: "C8_Q1",
+    course: 8,
+    source: "Caiet 2",
+    type: "single",
+    text: "Analiza de linkage reprezintă:",
+    options: {
+      A: "analiza expresiei genice",
+      B: "analiza de înlănțuire genică",
+      C: "analiza mutațiilor punctiforme",
+      D: "analiza epigenetică"
+    },
+    correct: ["B"],
+    explanation: "Linkage = analiză de înlănțuire genică pe cromozom."
+  },
+  {
+    id: "C8_Q2",
+    course: 8,
+    source: "Caiet 2",
+    type: "single",
+    text: "Un centiMorgan (1 cM) reprezintă:",
+    options: {
+      A: "1 Mb ADN",
+      B: "10% frecvență de recombinare",
+      C: "1% frecvență de recombinare",
+      D: "o genă structurală"
+    },
+    correct: ["C"],
+    explanation: "1 cM corespunde unei frecvențe de recombinare de 1%."
+  },
+  {
+    id: "C8_Q3",
+    course: 8,
+    source: "Caiet 5",
+    type: "single",
+    text: "Dezechilibrul de înlănțuire (LD) se referă la:",
+    options: {
+      A: "recombinare egală între loci",
+      B: "asocierea non-aleatorie a alelelor",
+      C: "mutații cromozomiale",
+      D: "expresie genică crescută"
+    },
+    correct: ["B"],
+    explanation: "LD descrie asocierea non-aleatorie a alelelor."
+  },
+  {
+    id: "C8_Q4",
+    course: 8,
+    source: "Caiet 6",
+    type: "single",
+    text: "Proiectul Genomului Uman a avut ca obiectiv principal:",
+    options: {
+      A: "identificarea proteinelor",
+      B: "secvențierea completă a genomului uman",
+      C: "analiza epigenetică",
+      D: "diagnosticul bolilor genetice"
+    },
+    correct: ["B"],
+    explanation: "HGP a urmărit secvențierea genomului uman."
+  },
+  {
+    id: "C8_Q5",
+    course: 8,
+    source: "Caiet 7",
+    type: "single",
+    text: "Numărul estimat al genelor umane este de aproximativ:",
+    options: {
+      A: "5.000",
+      B: "10.000",
+      C: "20.000",
+      D: "100.000"
+    },
+    correct: ["C"],
+    explanation: "Genomul uman conține ~20.000 gene."
+  },
+  {
+    id: "C8_Q6",
+    course: 8,
+    source: "Caiet 8",
+    type: "single",
+    text: "Proteomica studiază:",
+    options: {
+      A: "genele",
+      B: "ARN-urile",
+      C: "proteinele",
+      D: "metilarea ADN"
+    },
+    correct: ["C"],
+    explanation: "Proteomica analizează proteinele exprimate."
+  },
+
+  /* COMPLEMENT MULTIPLU */
+
+  {
+    id: "C8_Q7",
+    course: 8,
+    source: "Caiet 2",
+    type: "multiple",
+    text: "Caracteristici ale Proiectului Genomului Uman:",
+    options: {
+      A: "a identificat secvența ADN uman",
+      B: "a demonstrat că genomul este identic între indivizi",
+      C: "a arătat că ADN codant reprezintă ~2%",
+      D: "a permis dezvoltarea GWAS"
+    },
+    correct: ["A", "C", "D"],
+    explanation: "HGP a pus baza studiilor genetice moderne."
+  },
+  {
+    id: "C8_Q8",
+    course: 8,
+    source: "Caiet 5",
+    type: "multiple",
+    text: "Studiile GWAS permit:",
+    options: {
+      A: "identificarea variantelor genetice asociate bolilor",
+      B: "analiza expresiei genelor individuale",
+      C: "corelarea SNP-urilor cu fenotipuri",
+      D: "diagnostic prenatal direct"
+    },
+    correct: ["A", "C"],
+    explanation: "GWAS corelează SNP-uri cu fenotipuri."
+  },
+  {
+    id: "C8_Q9",
+    course: 8,
+    source: "Caiet 6",
+    type: "multiple",
+    text: "Omicile includ:",
+    options: {
+      A: "genomică",
+      B: "proteomică",
+      C: "nutrigenomică",
+      D: "citogenetică clasică"
+    },
+    correct: ["A", "B", "C"],
+    explanation: "Citogenetica clasică nu este omică."
+  },
+  {
+    id: "C8_Q10",
+    course: 8,
+    source: "Caiet 7",
+    type: "multiple",
+    text: "Nutrigenomica studiază:",
+    options: {
+      A: "interacțiunea dintre dietă și gene",
+      B: "metabolismul proteinelor",
+      C: "influența nutrienților asupra expresiei genice",
+      D: "structura cromozomilor"
+    },
+    correct: ["A", "C"],
+    explanation: "Nutrigenomica corelează nutriția cu expresia genică."
+  }
+];
+
+export default course8;
