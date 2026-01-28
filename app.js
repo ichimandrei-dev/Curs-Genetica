@@ -306,4 +306,4 @@ class GeneticaApp {
     }
 }
 
-const app = new GeneticaApp();
+window.app = new GeneticaApp();
