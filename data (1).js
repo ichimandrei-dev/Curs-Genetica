@@ -952,3 +952,175 @@ const course4 = [
 ];
 
 export default course4;
+const course5 = [
+  {
+    id: "C5_Q1",
+    course: 5,
+    source: "Caiet 2",
+    type: "single",
+    text: "Codul genetic este o convenție care:",
+    options: {
+      A: "descrie structura ADN-ului",
+      B: "transformă informația din ADN în aminoacizi",
+      C: "controlează replicarea ADN",
+      D: "definește structura genei"
+    },
+    correct: ["B"],
+    explanation: "Codul genetic stabilește corespondența dintre codoni și aminoacizi."
+  },
+  {
+    id: "C5_Q2",
+    course: 5,
+    source: "Caiet 5",
+    type: "single",
+    text: "Majoritatea aminoacizilor sunt specificați de mai mult de un codon deoarece codul genetic este:",
+    options: {
+      A: "universal",
+      B: "continuu",
+      C: "degenerat",
+      D: "neechivoc"
+    },
+    correct: ["C"],
+    explanation: "Degenerarea codului genetic înseamnă mai mulți codoni pentru același aminoacid."
+  },
+  {
+    id: "C5_Q3",
+    course: 5,
+    source: "Caiet 6",
+    type: "single",
+    text: "Etapele transcripției sunt:",
+    options: {
+      A: "inițiere, maturare, terminare",
+      B: "inițiere, elongare, terminare",
+      C: "elongare, splicing, terminare",
+      D: "activare, elongare, stop"
+    },
+    correct: ["B"],
+    explanation: "Transcripția are trei etape: inițiere, elongare, terminare."
+  },
+  {
+    id: "C5_Q4",
+    course: 5,
+    source: "Caiet 6",
+    type: "single",
+    text: "ARN polimeraza eucariotă care sintetizează ARNm este:",
+    options: {
+      A: "ARN polimeraza I",
+      B: "ARN polimeraza II",
+      C: "ARN polimeraza III",
+      D: "ARN polimeraza mitocondrială"
+    },
+    correct: ["B"],
+    explanation: "ARN polimeraza II sintetizează ARNm."
+  },
+  {
+    id: "C5_Q5",
+    course: 5,
+    source: "Caiet 7",
+    type: "single",
+    text: "Codonul de start al translației este:",
+    options: {
+      A: "UAA",
+      B: "UAG",
+      C: "UGA",
+      D: "AUG"
+    },
+    correct: ["D"],
+    explanation: "AUG codifică metionina și este codonul inițiator."
+  },
+  {
+    id: "C5_Q6",
+    course: 5,
+    source: "Caiet 7",
+    type: "single",
+    text: "Ribozomii prezintă următoarele situsuri funcționale, cu EXCEPȚIA:",
+    options: {
+      A: "situs A (aminoacil)",
+      B: "situs P (peptidil)",
+      C: "situs E (exit)",
+      D: "situs T (transfer)"
+    },
+    correct: ["D"],
+    explanation: "Nu există situs T în ribozom."
+  },
+  {
+    id: "C5_Q7",
+    course: 5,
+    source: "Caiet 8",
+    type: "single",
+    text: "ARNt are rolul de a:",
+    options: {
+      A: "transporta aminoacizi la ribozom",
+      B: "sintetiza legături peptidice",
+      C: "transporta informație genetică",
+      D: "regla expresia genică"
+    },
+    correct: ["A"],
+    explanation: "ARNt transportă aminoacizii specifici la ribozom."
+  },
+
+  /* COMPLEMENT MULTIPLU */
+
+  {
+    id: "C5_Q8",
+    course: 5,
+    source: "Caiet 2",
+    type: "multiple",
+    text: "Caracteristici ale codului genetic:",
+    options: {
+      A: "este degenerat",
+      B: "este universal",
+      C: "este continuu",
+      D: "este ambiguu"
+    },
+    correct: ["A", "B", "C"],
+    explanation: "Codul genetic este degenerat, universal și continuu."
+  },
+  {
+    id: "C5_Q9",
+    course: 5,
+    source: "Caiet 5",
+    type: "multiple",
+    text: "ARN implicate în sinteza proteinelor:",
+    options: {
+      A: "ARNm",
+      B: "ARNt",
+      C: "ARNr",
+      D: "snoARN"
+    },
+    correct: ["A", "B", "C"],
+    explanation: "ARNm, ARNt și ARNr participă direct la sinteza proteică."
+  },
+  {
+    id: "C5_Q10",
+    course: 5,
+    source: "Caiet 6",
+    type: "multiple",
+    text: "Etapele translației sunt:",
+    options: {
+      A: "inițiere",
+      B: "elongare",
+      C: "terminare",
+      D: "splicing"
+    },
+    correct: ["A", "B", "C"],
+    explanation: "Translația include inițiere, elongare și terminare."
+  },
+  {
+    id: "C5_Q11",
+    course: 5,
+    source: "Caiet 7",
+    type: "multiple",
+    text: "Factorii de transcripție generali:",
+    options: {
+      A: "se leagă de promotor",
+      B: "formează complexul de preinițiere",
+      C: "recunosc secvența TATA",
+      D: "activează direct ribozomii"
+    },
+    correct: ["A", "B", "C"],
+    explanation: "Factorii de transcripție acționează la nivelul promotorului."
+  }
+];
+
+export default course5;
