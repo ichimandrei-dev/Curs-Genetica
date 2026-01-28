@@ -24,13 +24,10 @@ const QUESTIONS = [
       "citozina",
       "timina"
     ],
-    correct: [0,1]
-  }
-
-  // 👉 AICI continui cu TOATE grilele tale
-];
-{
-  id: "C1-Q001",
+  correct: [0,1]
+  },
+  {
+    id: "C1-Q001",
   course: 1,
   type: "single",
   text: "O nucleozidă este alcătuită din:",
@@ -4462,5 +4459,15 @@ const QUESTIONS = [
   ],
   correct: 0
 }
+},
+  {
+    id: "C13-Q050",  // your last question
+    course: 13,
+    type: "single",
+    text: "...",
+    options: [...],
+    correct: 2
+  }
+];  // ← Close the array here
 
 
