@@ -608,3 +608,190 @@ const course2 = [
 ];
 
 export default course2;
+const course3 = [
+  {
+    id: "C3_Q1",
+    course: 3,
+    source: "Caiet 2",
+    type: "single",
+    text: "Heterocromatina prezintă următoarea caracteristică:",
+    options: {
+      A: "se replică precoce",
+      B: "are activitate transcripțională intensă",
+      C: "se replică tardiv",
+      D: "este bogată în ADN nerepetitiv"
+    },
+    correct: ["C"],
+    explanation: "Heterocromatina se replică tardiv și este transcripțional inactivă."
+  },
+  {
+    id: "C3_Q2",
+    course: 3,
+    source: "Caiet 2",
+    type: "single",
+    text: "Legătura dintre doi nucleozomi vecini se realizează prin intermediul histonei:",
+    options: {
+      A: "H2A",
+      B: "H2B",
+      C: "H3",
+      D: "H1"
+    },
+    correct: ["D"],
+    explanation: "Histona H1 este histona de legătură (linker)."
+  },
+  {
+    id: "C3_Q3",
+    course: 3,
+    source: "Caiet 5",
+    type: "single",
+    text: "Eucromatina este caracterizată prin:",
+    options: {
+      A: "replicare tardivă",
+      B: "ADN repetitiv",
+      C: "activitate transcripțională",
+      D: "condensare maximă"
+    },
+    correct: ["C"],
+    explanation: "Eucromatina este slab condensată și transcripțional activă."
+  },
+  {
+    id: "C3_Q4",
+    course: 3,
+    source: "Caiet 5",
+    type: "single",
+    text: "Histonele care intră în structura miezului nucleozomal sunt:",
+    options: {
+      A: "H1, H2A, H2B",
+      B: "H2A, H2B, H3, H4",
+      C: "H1, H3, H4",
+      D: "doar H3 și H4"
+    },
+    correct: ["B"],
+    explanation: "Octamerul histonic conține H2A, H2B, H3 și H4."
+  },
+  {
+    id: "C3_Q5",
+    course: 3,
+    source: "Caiet 6",
+    type: "single",
+    text: "Nucleozomul conține un segment de ADN de aproximativ:",
+    options: {
+      A: "50 pb",
+      B: "100 pb",
+      C: "146 pb",
+      D: "200 pb"
+    },
+    correct: ["C"],
+    explanation: "ADN-ul înfășurat pe octamer are aproximativ 146 perechi de baze."
+  },
+  {
+    id: "C3_Q6",
+    course: 3,
+    source: "Caiet 6",
+    type: "single",
+    text: "Cromatina este definită ca:",
+    options: {
+      A: "ADN liber în nucleu",
+      B: "complex ADN + histone",
+      C: "complex ADN + proteine histonice, nehistonice și ARN",
+      D: "structură prezentă doar în mitoză"
+    },
+    correct: ["C"],
+    explanation: "Cromatina este un complex nucleo-proteic."
+  },
+  {
+    id: "C3_Q7",
+    course: 3,
+    source: "Caiet 7",
+    type: "single",
+    text: "Care este elementul structural facultativ al cromozomului?",
+    options: {
+      A: "centromerul",
+      B: "telomerul",
+      C: "satelitul",
+      D: "brațul scurt"
+    },
+    correct: ["C"],
+    explanation: "Satelitul este un element structural facultativ."
+  },
+  {
+    id: "C3_Q8",
+    course: 3,
+    source: "Caiet 8",
+    type: "single",
+    text: "Proteinele non-histonice din cromatină:",
+    options: {
+      A: "sunt bogate în lizină",
+      B: "au caracter bazic",
+      C: "mediază interacțiuni ADN-histone",
+      D: "se găsesc în cantități mari"
+    },
+    correct: ["C"],
+    explanation: "Proteinele non-histonice sunt implicate în reglare și organizare."
+  },
+
+  /* COMPLEMENT MULTIPLU */
+
+  {
+    id: "C3_Q9",
+    course: 3,
+    source: "Caiet 2",
+    type: "multiple",
+    text: "Caracteristici ale eucromatinei:",
+    options: {
+      A: "replicare precoce",
+      B: "activitate transcripțională",
+      C: "ADN nerepetitiv",
+      D: "condensare maximă"
+    },
+    correct: ["A", "B", "C"],
+    explanation: "Eucromatina este activă și slab condensată."
+  },
+  {
+    id: "C3_Q10",
+    course: 3,
+    source: "Caiet 2",
+    type: "multiple",
+    text: "Caracteristicile nucleozomului:",
+    options: {
+      A: "conține octamer histonic",
+      B: "are ADN linker",
+      C: "formează fibra de 10 nm",
+      D: "conține histona H1 în miez"
+    },
+    correct: ["A", "B", "C"],
+    explanation: "Histona H1 nu face parte din miezul nucleozomului."
+  },
+  {
+    id: "C3_Q11",
+    course: 3,
+    source: "Caiet 5",
+    type: "multiple",
+    text: "Histonele:",
+    options: {
+      A: "sunt proteine bazice",
+      B: "sunt bogate în lizină și arginină",
+      C: "stabilizează ADN-ul",
+      D: "activează direct transcripția"
+    },
+    correct: ["A", "B", "C"],
+    explanation: "Histonele sunt în general represori ai expresiei genice."
+  },
+  {
+    id: "C3_Q12",
+    course: 3,
+    source: "Caiet 6",
+    type: "multiple",
+    text: "Cromozomii metafazici prezintă:",
+    options: {
+      A: "centromer",
+      B: "telomeri",
+      C: "două cromatide",
+      D: "nucleozomi liberi"
+    },
+    correct: ["A", "B", "C"],
+    explanation: "Cromozomul metafazic este maxim condensat."
+  }
+];
+
+export default course3;
