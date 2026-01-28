@@ -1,6 +1,6 @@
-window.QUESTIONS = QUESTIONS;
+const QUESTIONS = [
   {
-    id: "C1-Q001",
+    id: "C1-Q0001",
     course: 1,
     type: "single",
     text: "Structura ADN este:",
@@ -14,7 +14,7 @@ window.QUESTIONS = QUESTIONS;
   },
 
   {
-    id: "C1-Q002",
+    id: "C1-Q0002",
     course: 1,
     type: "multiple",
     text: "Bazele azotate purinice sunt:",
@@ -4460,14 +4460,19 @@ window.QUESTIONS = QUESTIONS;
   correct: 0
 }
 },
-  {
-    id: "C13-Q050",  // your last question
-    course: 13,
-    type: "single",
-    text: "...",
-    options: [...],
-    correct: 2
-  }
-];  // ← Close the array here
+{
+  id: "C13-Q050",
+  course: 13,
+  type: "single",
+  text: "Întrebare exemplu finală",
+  options: [
+    "varianta A",
+    "varianta B",
+    "varianta C",
+    "varianta D"
+  ],
+  correct: 2
+}
+];
 
-
+window.QUESTIONS = QUESTIONS;
