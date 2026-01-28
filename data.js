@@ -1246,3 +1246,979 @@
   ],
   correct: [0,1,2]
 }
+{
+  id: "C5-Q001",
+  course: 5,
+  type: "single",
+  text: "Transcripția reprezintă procesul prin care:",
+  options: [
+    "ARN este tradus în proteină",
+    "ADN este copiat în ARN",
+    "ADN este replicat",
+    "ARN este degradat"
+  ],
+  correct: 1
+},
+{
+  id: "C5-Q002",
+  course: 5,
+  type: "single",
+  text: "Enzima responsabilă de transcripție este:",
+  options: [
+    "ADN polimeraza",
+    "ARN polimeraza",
+    "ligaza",
+    "telomeraza"
+  ],
+  correct: 1
+},
+{
+  id: "C5-Q003",
+  course: 5,
+  type: "multiple",
+  text: "Etapele transcripției sunt:",
+  options: [
+    "inițiere",
+    "elongare",
+    "terminare",
+    "splicing"
+  ],
+  correct: [0,1,2]
+},
+{
+  id: "C5-Q004",
+  course: 5,
+  type: "single",
+  text: "În eucariote, ARN polimeraza II este responsabilă de sinteza:",
+  options: [
+    "ARNr",
+    "ARNt",
+    "ARNm",
+    "snoARN"
+  ],
+  correct: 2
+},
+{
+  id: "C5-Q005",
+  course: 5,
+  type: "multiple",
+  text: "Factorii de transcripție generali:",
+  options: [
+    "se leagă de promotor",
+    "formează complexul de preinițiere",
+    "sunt specifici fiecărei gene",
+    "sunt necesari pentru inițierea transcripției"
+  ],
+  correct: [0,1,3]
+},
+{
+  id: "C5-Q006",
+  course: 5,
+  type: "single",
+  text: "Secvența TATA box este localizată:",
+  options: [
+    "în intron",
+    "în promotor",
+    "în exon",
+    "în 3'UTR"
+  ],
+  correct: 1
+},
+{
+  id: "C5-Q007",
+  course: 5,
+  type: "single",
+  text: "ARN polimeraza sintetizează ARN în direcția:",
+  options: [
+    "3' → 5'",
+    "5' → 3'",
+    "bidirecțional",
+    "aleator"
+  ],
+  correct: 1
+},
+{
+  id: "C5-Q008",
+  course: 5,
+  type: "multiple",
+  text: "Codul genetic prezintă următoarele caracteristici:",
+  options: [
+    "este degenerat",
+    "este universal",
+    "este suprapus",
+    "este lipsit de virgule"
+  ],
+  correct: [0,1,3]
+},
+{
+  id: "C5-Q009",
+  course: 5,
+  type: "single",
+  text: "Codonul de start în codul genetic este:",
+  options: [
+    "UAA",
+    "UAG",
+    "UGA",
+    "AUG"
+  ],
+  correct: 3
+},
+{
+  id: "C5-Q010",
+  course: 5,
+  type: "multiple",
+  text: "Codonii stop sunt:",
+  options: [
+    "UAA",
+    "UAG",
+    "UGA",
+    "AUG"
+  ],
+  correct: [0,1,2]
+},
+{
+  id: "C5-Q011",
+  course: 5,
+  type: "single",
+  text: "Translația are loc la nivelul:",
+  options: [
+    "nucleului",
+    "mitocondriei",
+    "ribozomilor",
+    "lizozomilor"
+  ],
+  correct: 2
+},
+{
+  id: "C5-Q012",
+  course: 5,
+  type: "single",
+  text: "Ribozomii sunt alcătuiți din:",
+  options: [
+    "o subunitate",
+    "două subunități",
+    "trei subunități",
+    "doar proteine"
+  ],
+  correct: 1
+}
+{
+  id: "C5-Q013",
+  course: 5,
+  type: "single",
+  text: "ARNt are rolul de a:",
+  options: [
+    "transporta aminoacizii la ribozom",
+    "iniția replicarea ADN",
+    "cataliza formarea legăturilor peptidice",
+    "degrada ARNm"
+  ],
+  correct: 0
+},
+{
+  id: "C5-Q014",
+  course: 5,
+  type: "single",
+  text: "Anticodonul ARNt este complementar cu:",
+  options: [
+    "codonul din ADN",
+    "codonul din ARNm",
+    "promotorul genei",
+    "ARNr"
+  ],
+  correct: 1
+},
+{
+  id: "C5-Q015",
+  course: 5,
+  type: "multiple",
+  text: "Activarea aminoacizilor presupune:",
+  options: [
+    "atașarea aminoacidului la ARNt specific",
+    "consum de ATP",
+    "formarea aminoacil-ARNt sintetazei",
+    "specificitate ridicată"
+  ],
+  correct: [0,1,3]
+},
+{
+  id: "C5-Q016",
+  course: 5,
+  type: "single",
+  text: "Enzimele care catalizează activarea aminoacizilor sunt:",
+  options: [
+    "ARN polimerazele",
+    "aminoacil-ARNt sintetazele",
+    "ligazele",
+    "ribozomii"
+  ],
+  correct: 1
+},
+{
+  id: "C5-Q017",
+  course: 5,
+  type: "single",
+  text: "Situsul ribozomal la care se leagă aminoacil-ARNt este:",
+  options: [
+    "situsul P",
+    "situsul A",
+    "situsul E",
+    "situsul T"
+  ],
+  correct: 1
+},
+{
+  id: "C5-Q018",
+  course: 5,
+  type: "single",
+  text: "Situsul P al ribozomului conține:",
+  options: [
+    "ARNt gol",
+    "aminoacil-ARNt",
+    "peptidil-ARNt",
+    "factorii de inițiere"
+  ],
+  correct: 2
+},
+{
+  id: "C5-Q019",
+  course: 5,
+  type: "single",
+  text: "Situsul E al ribozomului este responsabil de:",
+  options: [
+    "intrarea ARNt",
+    "formarea legăturii peptidice",
+    "ieșirea ARNt",
+    "recunoașterea codonului start"
+  ],
+  correct: 2
+},
+{
+  id: "C5-Q020",
+  course: 5,
+  type: "multiple",
+  text: "Etapele translației includ:",
+  options: [
+    "inițiere",
+    "elongare",
+    "terminare",
+    "splicing"
+  ],
+  correct: [0,1,2]
+},
+{
+  id: "C5-Q021",
+  course: 5,
+  type: "single",
+  text: "Legătura peptidică dintre aminoacizi este catalizată de:",
+  options: [
+    "ARN polimeraza",
+    "aminoacil-ARNt sintetaza",
+    "peptidil-transferaza",
+    "ligaza"
+  ],
+  correct: 2
+},
+{
+  id: "C5-Q022",
+  course: 5,
+  type: "single",
+  text: "Factorii de terminare ai translației recunosc:",
+  options: [
+    "codonul AUG",
+    "anticodonul ARNt",
+    "codonii stop",
+    "secvența TATA"
+  ],
+  correct: 2
+},
+{
+  id: "C5-Q023",
+  course: 5,
+  type: "multiple",
+  text: "Caracteristicile translației includ:",
+  options: [
+    "citirea ARNm în direcția 5'→3'",
+    "sinteza proteinei în direcția N→C",
+    "consum energetic ridicat",
+    "desfășurare exclusiv nucleară"
+  ],
+  correct: [0,1,2]
+},
+{
+  id: "C5-Q024",
+  course: 5,
+  type: "single",
+  text: "Poliribozomii reprezintă:",
+  options: [
+    "un ribozom cu două subunități",
+    "mai mulți ribozomi pe același ARNm",
+    "ribozomi mitocondriali",
+    "ribozomi în nucleu"
+  ],
+  correct: 1
+},
+{
+  id: "C5-Q025",
+  course: 5,
+  type: "single",
+  text: "Translația mitocondrială se realizează pe ribozomi:",
+  options: [
+    "identici cu cei citosolici",
+    "asemănători celor bacterieni",
+    "mai mari decât cei citosolici",
+    "fără ARNr"
+  ],
+  correct: 1
+}
+{
+  id: "C6-Q001",
+  course: 6,
+  type: "single",
+  text: "Mutația este definită ca:",
+  options: [
+    "o modificare reversibilă a expresiei genice",
+    "o modificare permanentă a secvenței ADN",
+    "un proces fiziologic normal",
+    "o modificare exclusiv epigenetică"
+  ],
+  correct: 1
+},
+{
+  id: "C6-Q002",
+  course: 6,
+  type: "single",
+  text: "Mutațiile punctiforme afectează:",
+  options: [
+    "un cromozom întreg",
+    "o singură genă",
+    "o singură pereche de baze",
+    "structura cromatinei"
+  ],
+  correct: 2
+},
+{
+  id: "C6-Q003",
+  course: 6,
+  type: "multiple",
+  text: "Substituțiile nucleotidice includ:",
+  options: [
+    "tranziții",
+    "transversii",
+    "deleții",
+    "inserții"
+  ],
+  correct: [0,1]
+},
+{
+  id: "C6-Q004",
+  course: 6,
+  type: "single",
+  text: "Tranziția reprezintă:",
+  options: [
+    "înlocuirea unei purine cu o pirimidină",
+    "înlocuirea unei pirimidine cu o purină",
+    "înlocuirea unei purine cu o purină sau a unei pirimidine cu o pirimidină",
+    "eliminarea unei baze"
+  ],
+  correct: 2
+},
+{
+  id: "C6-Q005",
+  course: 6,
+  type: "single",
+  text: "Transversia reprezintă:",
+  options: [
+    "înlocuirea unei purine cu o purină",
+    "înlocuirea unei pirimidine cu o pirimidină",
+    "înlocuirea unei purine cu o pirimidină sau invers",
+    "eliminarea unei baze"
+  ],
+  correct: 2
+},
+{
+  id: "C6-Q006",
+  course: 6,
+  type: "single",
+  text: "Mutația Glu6Val este un exemplu de:",
+  options: [
+    "mutație nonsense",
+    "mutație sinonimă",
+    "mutație missense",
+    "mutație frameshift"
+  ],
+  correct: 2
+},
+{
+  id: "C6-Q007",
+  course: 6,
+  type: "single",
+  text: "Mutația nonsense determină:",
+  options: [
+    "înlocuirea unui aminoacid cu altul",
+    "apariția unui codon stop prematur",
+    "menținerea aceluiași aminoacid",
+    "deplasarea cadrului de citire"
+  ],
+  correct: 1
+},
+{
+  id: "C6-Q008",
+  course: 6,
+  type: "single",
+  text: "Mutațiile sinonime sunt:",
+  options: [
+    "mutații cu modificare de aminoacid",
+    "mutații fără modificare de aminoacid",
+    "întotdeauna patologice",
+    "întotdeauna letale"
+  ],
+  correct: 1
+},
+{
+  id: "C6-Q009",
+  course: 6,
+  type: "multiple",
+  text: "Mutațiile frameshift apar prin:",
+  options: [
+    "deleții",
+    "inserții",
+    "substituții",
+    "modificări care nu sunt multiplu de 3 nucleotide"
+  ],
+  correct: [0,1,3]
+},
+{
+  id: "C6-Q010",
+  course: 6,
+  type: "single",
+  text: "Consecința principală a mutațiilor frameshift este:",
+  options: [
+    "modificarea unui singur aminoacid",
+    "alterarea întregii secvențe de aminoacizi downstream",
+    "absența oricărui efect",
+    "activarea promotorului"
+  ],
+  correct: 1
+},
+{
+  id: "C6-Q011",
+  course: 6,
+  type: "single",
+  text: "Mutațiile intronice pot afecta:",
+  options: [
+    "structura cromozomilor",
+    "splicing-ul ARNm",
+    "replicarea ADN",
+    "translația ribozomală"
+  ],
+  correct: 1
+},
+{
+  id: "C6-Q012",
+  course: 6,
+  type: "multiple",
+  text: "Mutațiile dinamice sunt caracterizate prin:",
+  options: [
+    "expansiunea secvențelor repetitive",
+    "repetiții trinucleotidice",
+    "anticipație genetică",
+    "deleții cromozomiale"
+  ],
+  correct: [0,1,2]
+}
+{
+  id: "C6-Q013",
+  course: 6,
+  type: "single",
+  text: "Mutațiile dinamice sunt frecvent asociate cu:",
+  options: [
+    "stabilitatea genomică",
+    "anticipația genetică",
+    "absența fenotipului",
+    "replicarea fidelă"
+  ],
+  correct: 1
+},
+{
+  id: "C6-Q014",
+  course: 6,
+  type: "single",
+  text: "Anticipația genetică se caracterizează prin:",
+  options: [
+    "debut tardiv al bolii",
+    "severitate constantă",
+    "debut mai precoce în generațiile succesive",
+    "absența mutațiilor"
+  ],
+  correct: 2
+},
+{
+  id: "C6-Q015",
+  course: 6,
+  type: "multiple",
+  text: "Bolile asociate mutațiilor dinamice includ:",
+  options: [
+    "boala Huntington",
+    "distrofia miotonică",
+    "fibroza chistică",
+    "sindromul X fragil"
+  ],
+  correct: [0,1,3]
+},
+{
+  id: "C6-Q016",
+  course: 6,
+  type: "single",
+  text: "Boala Huntington este determinată de:",
+  options: [
+    "expansiunea CAG",
+    "expansiunea CGG",
+    "expansiunea CTG",
+    "expansiunea GAA"
+  ],
+  correct: 0
+},
+{
+  id: "C6-Q017",
+  course: 6,
+  type: "single",
+  text: "Sindromul X fragil este asociat cu:",
+  options: [
+    "expansiunea CAG",
+    "expansiunea CGG",
+    "expansiunea CTG",
+    "expansiunea GAA"
+  ],
+  correct: 1
+},
+{
+  id: "C6-Q018",
+  course: 6,
+  type: "single",
+  text: "Tranzițiile sunt în general:",
+  options: [
+    "mai rare decât transversiile",
+    "mai frecvente decât transversiile",
+    "egale ca frecvență",
+    "absente în genomul uman"
+  ],
+  correct: 1
+},
+{
+  id: "C6-Q019",
+  course: 6,
+  type: "single",
+  text: "Raportul aproximativ dintre tranziții și transversii este:",
+  options: [
+    "1:1",
+    "2:1",
+    "1:2",
+    "10:1"
+  ],
+  correct: 1
+},
+{
+  id: "C6-Q020",
+  course: 6,
+  type: "multiple",
+  text: "Evoluția genomului uman este influențată de:",
+  options: [
+    "mutații",
+    "recombinare genetică",
+    "selecție naturală",
+    "reparare perfectă a ADN"
+  ],
+  correct: [0,1,2]
+},
+{
+  id: "C6-Q021",
+  course: 6,
+  type: "single",
+  text: "Mutațiile neutre sunt:",
+  options: [
+    "întotdeauna letale",
+    "întotdeauna patologice",
+    "fără efect fenotipic detectabil",
+    "eliminate rapid din populație"
+  ],
+  correct: 2
+},
+{
+  id: "C6-Q022",
+  course: 6,
+  type: "single",
+  text: "Mutațiile cu efect benefic:",
+  options: [
+    "sunt cele mai frecvente",
+    "nu există",
+    "pot fi favorizate de selecția naturală",
+    "sunt eliminate din populație"
+  ],
+  correct: 2
+},
+{
+  id: "C6-Q023",
+  course: 6,
+  type: "multiple",
+  text: "Majoritatea mutațiilor noi sunt:",
+  options: [
+    "benefice",
+    "neutre",
+    "dăunătoare",
+    "letale"
+  ],
+  correct: [1]
+},
+{
+  id: "C6-Q024",
+  course: 6,
+  type: "single",
+  text: "Evoluția genomului presupune acumularea:",
+  options: [
+    "doar a mutațiilor benefice",
+    "doar a mutațiilor dăunătoare",
+    "mutațiilor neutre și benefice",
+    "mutațiilor letale"
+  ],
+  correct: 2
+},
+{
+  id: "C6-Q025",
+  course: 6,
+  type: "single",
+  text: "Afirmația corectă despre mutații este:",
+  options: [
+    "nu contribuie la evoluție",
+    "sunt întotdeauna patologice",
+    "reprezintă materia primă a evoluției",
+    "apar doar în celulele germinale"
+  ],
+  correct: 2
+}
+{
+  id: "C7-Q001",
+  course: 7,
+  type: "single",
+  text: "Mecanismele de reparare a ADN au rolul de a:",
+  options: [
+    "crește rata mutațiilor",
+    "menține stabilitatea genomică",
+    "iniția transcripția",
+    "declanșa apoptoza"
+  ],
+  correct: 1
+},
+{
+  id: "C7-Q002",
+  course: 7,
+  type: "single",
+  text: "Repararea prin excizia bazei (BER) corectează în principal:",
+  options: [
+    "leziuni voluminoase",
+    "distorsiuni ale dublei elice",
+    "leziuni ale bazelor azotate",
+    "rupturi duble de catena"
+  ],
+  correct: 2
+},
+{
+  id: "C7-Q003",
+  course: 7,
+  type: "multiple",
+  text: "Etapele mecanismului BER includ:",
+  options: [
+    "recunoașterea bazei alterate",
+    "excizia bazei",
+    "sinteza ADN",
+    "ligarea catenei"
+  ],
+  correct: [0,1,2,3]
+},
+{
+  id: "C7-Q004",
+  course: 7,
+  type: "single",
+  text: "Repararea prin excizia nucleotidei (NER) corectează:",
+  options: [
+    "leziuni punctiforme",
+    "leziuni produse de radiații UV",
+    "erori de replicare",
+    "mutații dinamice"
+  ],
+  correct: 1
+},
+{
+  id: "C7-Q005",
+  course: 7,
+  type: "multiple",
+  text: "Caracteristicile mecanismului NER includ:",
+  options: [
+    "recunoaște distorsiuni ale helixului",
+    "excizează un fragment de ADN",
+    "implică sinteză de ADN",
+    "acționează fără excizie"
+  ],
+  correct: [0,1,2]
+},
+{
+  id: "C7-Q006",
+  course: 7,
+  type: "single",
+  text: "Sistemul de reparare a erorilor de împerechere (MMR) corectează:",
+  options: [
+    "leziuni UV",
+    "erori de replicare",
+    "leziuni oxidative",
+    "rupturi cromozomiale"
+  ],
+  correct: 1
+},
+{
+  id: "C7-Q007",
+  course: 7,
+  type: "multiple",
+  text: "Proteinele implicate în MMR includ:",
+  options: [
+    "MSH2",
+    "MSH6",
+    "MLH1",
+    "MGMT"
+  ],
+  correct: [0,1,2]
+},
+{
+  id: "C7-Q008",
+  course: 7,
+  type: "single",
+  text: "Repararea directă presupune:",
+  options: [
+    "excizia unei secvențe ADN",
+    "corectarea leziunii fără excizie",
+    "replicarea ADN",
+    "transcripția ADN"
+  ],
+  correct: 1
+},
+{
+  id: "C7-Q009",
+  course: 7,
+  type: "single",
+  text: "Enzima MGMT repară leziuni produse prin:",
+  options: [
+    "radiații UV",
+    "agenți alchilanți",
+    "radiații ionizante",
+    "oxidare"
+  ],
+  correct: 1
+},
+{
+  id: "C7-Q010",
+  course: 7,
+  type: "multiple",
+  text: "Mecanismele BER, NER și MMR au în comun:",
+  options: [
+    "excizia ADN",
+    "sinteză de ADN",
+    "ligare a catenei",
+    "reparare directă"
+  ],
+  correct: [0,1,2]
+},
+{
+  id: "C7-Q011",
+  course: 7,
+  type: "single",
+  text: "Xeroderma pigmentosum este cauzată de defecte în:",
+  options: [
+    "BER",
+    "NER",
+    "MMR",
+    "reparare directă"
+  ],
+  correct: 1
+},
+{
+  id: "C7-Q012",
+  course: 7,
+  type: "single",
+  text: "Pacienții cu xeroderma pigmentosum prezintă:",
+  options: [
+    "rezistență la UV",
+    "risc crescut de cancer cutanat",
+    "absența mutațiilor",
+    "protecție genomică crescută"
+  ],
+  correct: 1
+}
+{
+  id: "C7-Q013",
+  course: 7,
+  type: "single",
+  text: "Rupturile duble de catenă ale ADN pot fi reparate prin:",
+  options: [
+    "BER",
+    "NER",
+    "recombinare omoloagă",
+    "reparare directă"
+  ],
+  correct: 2
+},
+{
+  id: "C7-Q014",
+  course: 7,
+  type: "multiple",
+  text: "Mecanismele de reparare a rupturilor duble de catenă includ:",
+  options: [
+    "recombinare omoloagă (HR)",
+    "recombinare neomoloagă (NHEJ)",
+    "BER",
+    "MMR"
+  ],
+  correct: [0,1]
+},
+{
+  id: "C7-Q015",
+  course: 7,
+  type: "single",
+  text: "Recombinarea omoloagă este caracterizată prin:",
+  options: [
+    "lipsa matriței",
+    "folosirea unei secvențe omoloage",
+    "erori frecvente",
+    "absența fidelității"
+  ],
+  correct: 1
+},
+{
+  id: "C7-Q016",
+  course: 7,
+  type: "single",
+  text: "Recombinarea neomoloagă (NHEJ) este:",
+  options: [
+    "foarte fidelă",
+    "independentă de matriță",
+    "specifică doar meiozei",
+    "absentă la eucariote"
+  ],
+  correct: 1
+},
+{
+  id: "C7-Q017",
+  course: 7,
+  type: "multiple",
+  text: "Radiațiile ionizante pot produce:",
+  options: [
+    "rupturi simple de catenă",
+    "rupturi duble de catenă",
+    "leziuni oxidative",
+    "expansiuni trinucleotidice"
+  ],
+  correct: [0,1,2]
+},
+{
+  id: "C7-Q018",
+  course: 7,
+  type: "single",
+  text: "Agenții mutageni chimici pot produce:",
+  options: [
+    "alchilare",
+    "dezaminare",
+    "oxidare",
+    "toate cele de mai sus"
+  ],
+  correct: 3
+},
+{
+  id: "C7-Q019",
+  course: 7,
+  type: "single",
+  text: "Dezaminarea citozinei duce la formarea:",
+  options: [
+    "uracilului",
+    "timinei",
+    "adeninei",
+    "guaninei"
+  ],
+  correct: 0
+},
+{
+  id: "C7-Q020",
+  course: 7,
+  type: "multiple",
+  text: "Sistemele de reparare a ADN sunt esențiale pentru prevenirea:",
+  options: [
+    "instabilității genomice",
+    "cancerului",
+    "acumulării mutațiilor",
+    "replicării ADN"
+  ],
+  correct: [0,1,2]
+},
+{
+  id: "C7-Q021",
+  course: 7,
+  type: "single",
+  text: "Sindromul Lynch (HNPCC) este asociat cu defecte în:",
+  options: [
+    "BER",
+    "NER",
+    "MMR",
+    "HR"
+  ],
+  correct: 2
+},
+{
+  id: "C7-Q022",
+  course: 7,
+  type: "single",
+  text: "Consecința defectelor MMR este:",
+  options: [
+    "stabilitate genomică crescută",
+    "instabilitate microsatelitară",
+    "absența mutațiilor",
+    "blocarea ciclului celular"
+  ],
+  correct: 1
+},
+{
+  id: "C7-Q023",
+  course: 7,
+  type: "multiple",
+  text: "Instabilitatea microsatelitară este caracteristică:",
+  options: [
+    "sindromului Lynch",
+    "xerodermei pigmentosum",
+    "cancerului colorectal ereditar",
+    "bolilor mitocondriale"
+  ],
+  correct: [0,2]
+},
+{
+  id: "C7-Q024",
+  course: 7,
+  type: "single",
+  text: "Rolul principal al p53 în contextul leziunilor ADN este:",
+  options: [
+    "inițierea replicării",
+    "oprirea ciclului celular și activarea reparării",
+    "sinteza ARN",
+    "activarea telomerazei"
+  ],
+  correct: 1
+},
+{
+  id: "C7-Q025",
+  course: 7,
+  type: "single",
+  text: "Dacă leziunile ADN nu pot fi reparate, p53 poate induce:",
+  options: [
+    "replicarea accelerată",
+    "apoptoza",
+    "diferențierea celulară",
+    "meioza"
+  ],
+  correct: 1
+}
+
