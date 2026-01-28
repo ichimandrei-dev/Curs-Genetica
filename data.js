@@ -1,3 +1,34 @@
+const QUESTIONS = [
+  {
+    id: "C1-Q001",
+    course: 1,
+    type: "single",
+    text: "Structura ADN este:",
+    options: [
+      "dublu helix",
+      "monocatena",
+      "triplă helix",
+      "lineară rigidă"
+    ],
+    correct: 0
+  },
+
+  {
+    id: "C1-Q002",
+    course: 1,
+    type: "multiple",
+    text: "Bazele azotate purinice sunt:",
+    options: [
+      "adenina",
+      "guanina",
+      "citozina",
+      "timina"
+    ],
+    correct: [0,1]
+  }
+
+  // 👉 AICI continui cu TOATE grilele tale
+];
 {
   id: "C1-Q001",
   course: 1,
