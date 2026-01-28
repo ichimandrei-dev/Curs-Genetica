@@ -1,4 +1,4 @@
-const QUESTIONS = [
+window.QUESTIONS = QUESTIONS;
   {
     id: "C1-Q001",
     course: 1,
@@ -181,7 +181,7 @@ const QUESTIONS = [
     "ribozom"
   ],
   correct: [0,1,2]
-}
+},
 {
   id: "C1-Q013",
   course: 1,
@@ -298,7 +298,7 @@ const QUESTIONS = [
     "sinteza de ARN"
   ],
   correct: 1
-}
+},
 {
   id: "C2-Q001",
   course: 2,
@@ -454,7 +454,7 @@ const QUESTIONS = [
     "3’ → 3’"
   ],
   correct: 1
-}
+},
 {
   id: "C2-Q013",
   course: 2,
@@ -610,7 +610,7 @@ const QUESTIONS = [
     "moștenire paternă exclusivă"
   ],
   correct: [0,1,2]
-}
+},
 {
   id: "C3-Q001",
   course: 3,
@@ -766,7 +766,7 @@ const QUESTIONS = [
     "degradarea ADN"
   ],
   correct: 2
-}
+},
 {
   id: "C3-Q013",
   course: 3,
@@ -948,7 +948,7 @@ const QUESTIONS = [
     "cromozomi omologi"
   ],
   correct: [0,1,3]
-}
+},
 {
   id: "C4-Q001",
   course: 4,
@@ -1104,7 +1104,7 @@ const QUESTIONS = [
     "localizarea ARNm"
   ],
   correct: [0,1,3]
-}
+},
 {
   id: "C4-Q013",
   course: 4,
@@ -1273,7 +1273,7 @@ const QUESTIONS = [
     "replicare mai rapidă"
   ],
   correct: [0,1,2]
-}
+},
 {
   id: "C5-Q001",
   course: 5,
@@ -1429,7 +1429,7 @@ const QUESTIONS = [
     "doar proteine"
   ],
   correct: 1
-}
+},
 {
   id: "C5-Q013",
   course: 5,
@@ -1598,7 +1598,7 @@ const QUESTIONS = [
     "fără ARNr"
   ],
   correct: 1
-}
+},
 {
   id: "C6-Q001",
   course: 6,
@@ -1754,7 +1754,7 @@ const QUESTIONS = [
     "deleții cromozomiale"
   ],
   correct: [0,1,2]
-}
+},
 {
   id: "C6-Q013",
   course: 6,
@@ -1923,7 +1923,7 @@ const QUESTIONS = [
     "apar doar în celulele germinale"
   ],
   correct: 2
-}
+},
 {
   id: "C7-Q001",
   course: 7,
@@ -2079,7 +2079,7 @@ const QUESTIONS = [
     "protecție genomică crescută"
   ],
   correct: 1
-}
+},
 {
   id: "C7-Q013",
   course: 7,
@@ -2248,7 +2248,7 @@ const QUESTIONS = [
     "meioza"
   ],
   correct: 1
-}
+},
 {
   id: "C8-Q001",
   course: 8,
@@ -2404,7 +2404,7 @@ const QUESTIONS = [
     "metabolomica"
   ],
   correct: 1
-}
+},
 {
   id: "C8-Q013",
   course: 8,
@@ -2573,7 +2573,7 @@ const QUESTIONS = [
     "analiza intronilor"
   ],
   correct: 1
-}
+},
 {
   id: "C9-Q001",
   course: 9,
@@ -2729,7 +2729,7 @@ const QUESTIONS = [
     "M → G1"
   ],
   correct: 2
-}
+},
 {
   id: "C9-Q013",
   course: 9,
@@ -2898,7 +2898,7 @@ const QUESTIONS = [
     "doar mutații somatice"
   ],
   correct: [0,1,2]
-}
+},
 {
   id: "C10-Q001",
   course: 10,
@@ -3067,7 +3067,7 @@ const QUESTIONS = [
     "inhibarea AMH"
   ],
   correct: [0,1]
-}
+},
 {
   id: "C10-Q014",
   course: 10,
@@ -3288,7 +3288,7 @@ const QUESTIONS = [
     "apoptoză"
   ],
   correct: [0,1,2,3]
-}
+},
 {
   id: "C11-Q001",
   course: 11,
@@ -3483,7 +3483,7 @@ const QUESTIONS = [
     "0"
   ],
   correct: 0
-}
+},
 {
   id: "C11-Q016",
   course: 11,
@@ -3678,7 +3678,7 @@ const QUESTIONS = [
     "fenilcetonuria"
   ],
   correct: [0,1,2]
-}
+},
 {
   id: "C12-Q001",
   course: 12,
@@ -3873,7 +3873,7 @@ const QUESTIONS = [
     "replicarea ADN"
   ],
   correct: [0,1]
-}
+},
 {
   id: "C12-Q016",
   course: 12,
@@ -4068,7 +4068,7 @@ const QUESTIONS = [
     "poliploidii"
   ],
   correct: 0
-}
+},
 {
   id: "C13-Q001",
   course: 13,
@@ -4263,7 +4263,7 @@ const QUESTIONS = [
     "placentă"
   ],
   correct: 0
-}
+},
 {
   id: "C13-Q016",
   course: 13,
