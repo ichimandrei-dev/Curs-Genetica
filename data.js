@@ -2221,4 +2221,2215 @@
   ],
   correct: 1
 }
+{
+  id: "C8-Q001",
+  course: 8,
+  type: "single",
+  text: "Termenul «omica» se referă la:",
+  options: [
+    "studiul unei singure gene",
+    "studiul global al unui set de molecule biologice",
+    "analiza exclusiv clinică",
+    "diagnostic molecular punctual"
+  ],
+  correct: 1
+},
+{
+  id: "C8-Q002",
+  course: 8,
+  type: "multiple",
+  text: "Domeniile omice includ:",
+  options: [
+    "genomica",
+    "transcriptomica",
+    "proteomica",
+    "citogenetica clasică"
+  ],
+  correct: [0,1,2]
+},
+{
+  id: "C8-Q003",
+  course: 8,
+  type: "single",
+  text: "Genomica studiază:",
+  options: [
+    "totalitatea proteinelor",
+    "totalitatea ARN-urilor",
+    "totalitatea genelor unui organism",
+    "doar mutațiile patologice"
+  ],
+  correct: 2
+},
+{
+  id: "C8-Q004",
+  course: 8,
+  type: "single",
+  text: "Transcriptomica analizează:",
+  options: [
+    "ADN-ul genomic",
+    "ARN-urile exprimate într-o celulă",
+    "proteinele structurale",
+    "metaboliții"
+  ],
+  correct: 1
+},
+{
+  id: "C8-Q005",
+  course: 8,
+  type: "single",
+  text: "Proteomica se referă la studiul:",
+  options: [
+    "tuturor genelor",
+    "tuturor ARN-urilor",
+    "tuturor proteinelor exprimate",
+    "structurii cromozomiale"
+  ],
+  correct: 2
+},
+{
+  id: "C8-Q006",
+  course: 8,
+  type: "multiple",
+  text: "Caracteristicile proteomului includ:",
+  options: [
+    "dinamicitate crescută",
+    "dependență de tipul celular",
+    "stabilitate absolută",
+    "influență a mediului"
+  ],
+  correct: [0,1,3]
+},
+{
+  id: "C8-Q007",
+  course: 8,
+  type: "single",
+  text: "Proiectul Genomului Uman (HGP) a avut ca scop:",
+  options: [
+    "identificarea tuturor proteinelor",
+    "secvențierea completă a genomului uman",
+    "diagnosticul bolilor genetice",
+    "cartarea exclusivă a cromozomului X"
+  ],
+  correct: 1
+},
+{
+  id: "C8-Q008",
+  course: 8,
+  type: "multiple",
+  text: "Rezultatele Proiectului Genomului Uman includ:",
+  options: [
+    "identificarea numărului aproximativ de gene",
+    "secvența de referință a genomului",
+    "eliminarea bolilor genetice",
+    "dezvoltarea genomicii funcționale"
+  ],
+  correct: [0,1,3]
+},
+{
+  id: "C8-Q009",
+  course: 8,
+  type: "single",
+  text: "Numărul aproximativ de gene umane este:",
+  options: [
+    "aprox. 5.000",
+    "aprox. 10.000",
+    "aprox. 20.000–25.000",
+    "peste 100.000"
+  ],
+  correct: 2
+},
+{
+  id: "C8-Q010",
+  course: 8,
+  type: "single",
+  text: "Cartarea caracterelor mendeliene presupune:",
+  options: [
+    "identificarea genelor responsabile de trăsături ereditare",
+    "secvențierea întregului genom",
+    "analiza expresiei genice",
+    "studiul proteinelor"
+  ],
+  correct: 0
+},
+{
+  id: "C8-Q011",
+  course: 8,
+  type: "multiple",
+  text: "Caracterele mendeliene se caracterizează prin:",
+  options: [
+    "determinism genetic simplu",
+    "moștenire predictibilă",
+    "implicarea unui singur locus",
+    "dependență majoră de mediu"
+  ],
+  correct: [0,1,2]
+},
+{
+  id: "C8-Q012",
+  course: 8,
+  type: "single",
+  text: "Baza cartării mendeliene o reprezintă:",
+  options: [
+    "analiza proteomică",
+    "analiza pedigree-urilor",
+    "citogenetica moleculară",
+    "metabolomica"
+  ],
+  correct: 1
+}
+{
+  id: "C8-Q013",
+  course: 8,
+  type: "single",
+  text: "Înlănțuirea genică (linkage) se referă la:",
+  options: [
+    "gene localizate pe cromozomi diferiți",
+    "gene localizate pe același cromozom care se transmit împreună",
+    "gene cu expresie simultană",
+    "gene cu mutații identice"
+  ],
+  correct: 1
+},
+{
+  id: "C8-Q014",
+  course: 8,
+  type: "single",
+  text: "Probabilitatea recombinării dintre două gene este proporțională cu:",
+  options: [
+    "dimensiunea genei",
+    "distanța dintre gene",
+    "nivelul de expresie",
+    "tipul de mutație"
+  ],
+  correct: 1
+},
+{
+  id: "C8-Q015",
+  course: 8,
+  type: "multiple",
+  text: "Caracteristicile genelor înlănțuite includ:",
+  options: [
+    "transmitere împreună mai frecvent decât segregarea independentă",
+    "recombinare posibilă",
+    "localizare pe cromozomi diferiți",
+    "distanță genetică măsurabilă"
+  ],
+  correct: [0,1,3]
+},
+{
+  id: "C8-Q016",
+  course: 8,
+  type: "single",
+  text: "Unitatea de măsură a distanței genetice este:",
+  options: [
+    "kilobaza",
+    "centimorganul",
+    "megabaza",
+    "nanometrul"
+  ],
+  correct: 1
+},
+{
+  id: "C8-Q017",
+  course: 8,
+  type: "single",
+  text: "Dezechilibrul de înlănțuire (LD) reprezintă:",
+  options: [
+    "asocierea aleatorie a alelelor",
+    "asocierea non-aleatorie a alelelor la loci diferiți",
+    "absența recombinării",
+    "moștenirea mendeliană simplă"
+  ],
+  correct: 1
+},
+{
+  id: "C8-Q018",
+  course: 8,
+  type: "multiple",
+  text: "Factorii care influențează LD includ:",
+  options: [
+    "recombinarea",
+    "deriva genetică",
+    "selecția naturală",
+    "dimensiunea populației"
+  ],
+  correct: [0,1,2,3]
+},
+{
+  id: "C8-Q019",
+  course: 8,
+  type: "single",
+  text: "LD este utilizat în principal pentru:",
+  options: [
+    "diagnostic citogenetic clasic",
+    "studiile de asociere genomică (GWAS)",
+    "determinarea cariotipului",
+    "analiza proteomică"
+  ],
+  correct: 1
+},
+{
+  id: "C8-Q020",
+  course: 8,
+  type: "single",
+  text: "Nutrigenomica studiază:",
+  options: [
+    "influența nutrienților asupra expresiei genice",
+    "structura proteinelor",
+    "mutațiile cromozomiale",
+    "replicarea ADN"
+  ],
+  correct: 0
+},
+{
+  id: "C8-Q021",
+  course: 8,
+  type: "multiple",
+  text: "Aplicațiile nutrigenomicii includ:",
+  options: [
+    "personalizarea dietei",
+    "prevenția bolilor multifactoriale",
+    "tratamentul citogenetic",
+    "optimizarea stilului de viață"
+  ],
+  correct: [0,1,3]
+},
+{
+  id: "C8-Q022",
+  course: 8,
+  type: "single",
+  text: "Proteomica aplicată permite:",
+  options: [
+    "identificarea biomarkerilor",
+    "determinarea secvenței ADN",
+    "analiza cariotipului",
+    "studiul exclusiv al genelor"
+  ],
+  correct: 0
+},
+{
+  id: "C8-Q023",
+  course: 8,
+  type: "multiple",
+  text: "Proteomica este utilă în:",
+  options: [
+    "oncologie",
+    "farmacogenomică",
+    "diagnostic molecular",
+    "citogenetica clasică"
+  ],
+  correct: [0,1,2]
+},
+{
+  id: "C8-Q024",
+  course: 8,
+  type: "single",
+  text: "Un avantaj major al abordărilor omice este:",
+  options: [
+    "analiza izolată a unei singure gene",
+    "viziunea integrativă asupra sistemelor biologice",
+    "cost redus invariabil",
+    "aplicabilitate limitată"
+  ],
+  correct: 1
+},
+{
+  id: "C8-Q025",
+  course: 8,
+  type: "single",
+  text: "Studiile GWAS se bazează în principal pe:",
+  options: [
+    "citogenetică",
+    "LD și markeri genetici",
+    "proteomică",
+    "analiza intronilor"
+  ],
+  correct: 1
+}
+{
+  id: "C9-Q001",
+  course: 9,
+  type: "single",
+  text: "Oncogenetica studiază:",
+  options: [
+    "bolile infecțioase",
+    "mecanismele genetice ale cancerului",
+    "anomaliile cromozomiale congenitale",
+    "bolile mitocondriale"
+  ],
+  correct: 1
+},
+{
+  id: "C9-Q002",
+  course: 9,
+  type: "single",
+  text: "Oncogenele derivă din:",
+  options: [
+    "gene supresoare tumorale",
+    "protooncogene",
+    "gene de reparare",
+    "gene mitocondriale"
+  ],
+  correct: 1
+},
+{
+  id: "C9-Q003",
+  course: 9,
+  type: "multiple",
+  text: "Protooncogenele sunt implicate în mod normal în:",
+  options: [
+    "controlul proliferării celulare",
+    "diferențiere celulară",
+    "apoptoză",
+    "menținerea telomerilor"
+  ],
+  correct: [0,1]
+},
+{
+  id: "C9-Q004",
+  course: 9,
+  type: "single",
+  text: "Activarea oncogenelor poate avea loc prin:",
+  options: [
+    "mutații punctiforme",
+    "amplificare genică",
+    "translocații cromozomiale",
+    "toate cele de mai sus"
+  ],
+  correct: 3
+},
+{
+  id: "C9-Q005",
+  course: 9,
+  type: "single",
+  text: "O singură alelă mutantă a unei oncogene este suficientă pentru efect:",
+  options: [
+    "recesiv",
+    "dominant",
+    "letal",
+    "neutru"
+  ],
+  correct: 1
+},
+{
+  id: "C9-Q006",
+  course: 9,
+  type: "single",
+  text: "Genele supresoare tumorale:",
+  options: [
+    "stimulează proliferarea",
+    "inhibă creșterea celulară",
+    "activează oncogenele",
+    "favorizează angiogeneza"
+  ],
+  correct: 1
+},
+{
+  id: "C9-Q007",
+  course: 9,
+  type: "single",
+  text: "Pentru inactivarea unei gene supresoare tumorale sunt necesare:",
+  options: [
+    "o singură mutație",
+    "două mutații (ipoteza celor două lovituri)",
+    "o amplificare genică",
+    "o translocație"
+  ],
+  correct: 1
+},
+{
+  id: "C9-Q008",
+  course: 9,
+  type: "single",
+  text: "Ipoteza celor două lovituri a fost formulată pentru:",
+  options: [
+    "oncogene",
+    "genele de reparare",
+    "genele supresoare tumorale",
+    "genele mitocondriale"
+  ],
+  correct: 2
+},
+{
+  id: "C9-Q009",
+  course: 9,
+  type: "multiple",
+  text: "Exemple de gene supresoare tumorale includ:",
+  options: [
+    "TP53",
+    "RB1",
+    "RAS",
+    "BRCA1"
+  ],
+  correct: [0,1,3]
+},
+{
+  id: "C9-Q010",
+  course: 9,
+  type: "single",
+  text: "Proteina p53 este implicată în:",
+  options: [
+    "inițierea replicării ADN",
+    "controlul ciclului celular și apoptoză",
+    "sinteza proteinelor",
+    "angiogeneză"
+  ],
+  correct: 1
+},
+{
+  id: "C9-Q011",
+  course: 9,
+  type: "multiple",
+  text: "Consecințele inactivării p53 includ:",
+  options: [
+    "instabilitate genomică",
+    "evitarea apoptozei",
+    "oprirea definitivă a ciclului celular",
+    "acumularea mutațiilor"
+  ],
+  correct: [0,1,3]
+},
+{
+  id: "C9-Q012",
+  course: 9,
+  type: "single",
+  text: "RB1 controlează tranziția:",
+  options: [
+    "G2 → M",
+    "S → G2",
+    "G1 → S",
+    "M → G1"
+  ],
+  correct: 2
+}
+{
+  id: "C9-Q013",
+  course: 9,
+  type: "single",
+  text: "Apoptoza reprezintă:",
+  options: [
+    "moarte celulară accidentală",
+    "moarte celulară programată",
+    "necroză",
+    "diviziune celulară"
+  ],
+  correct: 1
+},
+{
+  id: "C9-Q014",
+  course: 9,
+  type: "multiple",
+  text: "Caracteristicile apoptozei includ:",
+  options: [
+    "fragmentarea ADN",
+    "inflamație intensă",
+    "condensarea cromatinei",
+    "formarea de corpi apoptotici"
+  ],
+  correct: [0,2,3]
+},
+{
+  id: "C9-Q015",
+  course: 9,
+  type: "single",
+  text: "Calea intrinsecă a apoptozei este declanșată de:",
+  options: [
+    "receptori de moarte",
+    "leziuni ADN și stres celular",
+    "citokine inflamatorii",
+    "factori de creștere"
+  ],
+  correct: 1
+},
+{
+  id: "C9-Q016",
+  course: 9,
+  type: "single",
+  text: "Calea extrinsecă a apoptozei implică:",
+  options: [
+    "mitocondria",
+    "receptorii Fas/TNF",
+    "telomeraza",
+    "ribozomii"
+  ],
+  correct: 1
+},
+{
+  id: "C9-Q017",
+  course: 9,
+  type: "multiple",
+  text: "Caspazele sunt:",
+  options: [
+    "proteaze",
+    "activate în cascadă",
+    "implicate în apoptoză",
+    "implicate în replicare"
+  ],
+  correct: [0,1,2]
+},
+{
+  id: "C9-Q018",
+  course: 9,
+  type: "single",
+  text: "Angiogeneza tumorală reprezintă:",
+  options: [
+    "distrugerea vaselor",
+    "formarea de noi vase de sânge",
+    "apoptoza endoteliului",
+    "diferențiere celulară"
+  ],
+  correct: 1
+},
+{
+  id: "C9-Q019",
+  course: 9,
+  type: "single",
+  text: "Factorul major pro-angiogenic este:",
+  options: [
+    "EGF",
+    "VEGF",
+    "TGF-β",
+    "PDGF"
+  ],
+  correct: 1
+},
+{
+  id: "C9-Q020",
+  course: 9,
+  type: "single",
+  text: "Hipoxia tumorală determină:",
+  options: [
+    "inhibarea angiogenezei",
+    "activarea HIF-1α",
+    "scăderea invazivității",
+    "oprirea proliferării"
+  ],
+  correct: 1
+},
+{
+  id: "C9-Q021",
+  course: 9,
+  type: "multiple",
+  text: "Consecințele hipoxiei tumorale includ:",
+  options: [
+    "rezistență la terapie",
+    "angiogeneză crescută",
+    "scăderea agresivității",
+    "adaptare metabolică"
+  ],
+  correct: [0,1,3]
+},
+{
+  id: "C9-Q022",
+  course: 9,
+  type: "single",
+  text: "Farmacogenetica studiază:",
+  options: [
+    "efectul medicamentelor asupra genomului",
+    "influența variațiilor genetice asupra răspunsului la medicamente",
+    "mutațiile induse de medicamente",
+    "dozele standard terapeutice"
+  ],
+  correct: 1
+},
+{
+  id: "C9-Q023",
+  course: 9,
+  type: "multiple",
+  text: "Aplicațiile farmacogeneticii includ:",
+  options: [
+    "individualizarea terapiei",
+    "reducerea reacțiilor adverse",
+    "creșterea eficienței tratamentului",
+    "diagnostic citogenetic"
+  ],
+  correct: [0,1,2]
+},
+{
+  id: "C9-Q024",
+  course: 9,
+  type: "single",
+  text: "Susceptibilitatea genetică la cancer presupune:",
+  options: [
+    "prezența obligatorie a cancerului",
+    "risc crescut determinat genetic",
+    "moștenire mendeliană simplă",
+    "absența factorilor de mediu"
+  ],
+  correct: 1
+},
+{
+  id: "C9-Q025",
+  course: 9,
+  type: "multiple",
+  text: "Factorii care contribuie la susceptibilitatea la cancer includ:",
+  options: [
+    "mutații germinale",
+    "polimorfisme genetice",
+    "factori de mediu",
+    "doar mutații somatice"
+  ],
+  correct: [0,1,2]
+}
+{
+  id: "C10-Q001",
+  course: 10,
+  type: "single",
+  text: "Ciclul celular este alcătuit din:",
+  options: [
+    "G1, S, G2 și M",
+    "G0, G1 și M",
+    "S și M",
+    "interfază și apoptoză"
+  ],
+  correct: 0
+},
+{
+  id: "C10-Q002",
+  course: 10,
+  type: "single",
+  text: "Faza S a ciclului celular este caracterizată prin:",
+  options: [
+    "replicarea ADN-ului",
+    "condensarea cromatinei",
+    "diviziunea celulară",
+    "apoptoză"
+  ],
+  correct: 0
+},
+{
+  id: "C10-Q003",
+  course: 10,
+  type: "single",
+  text: "Controlul ciclului celular este realizat în principal de:",
+  options: [
+    "ribozomi",
+    "ciclina și CDK",
+    "telomerază",
+    "ARN polimerază"
+  ],
+  correct: 1
+},
+{
+  id: "C10-Q004",
+  course: 10,
+  type: "multiple",
+  text: "Punctele de control ale ciclului celular includ:",
+  options: [
+    "G1/S",
+    "G2/M",
+    "metafază",
+    "anafază"
+  ],
+  correct: [0,1]
+},
+{
+  id: "C10-Q005",
+  course: 10,
+  type: "single",
+  text: "Proteina p53 are rol major în:",
+  options: [
+    "stimularea ciclului celular",
+    "oprirea ciclului celular la leziuni ADN",
+    "sinteza proteinelor",
+    "angiogeneză"
+  ],
+  correct: 1
+},
+{
+  id: "C10-Q006",
+  course: 10,
+  type: "single",
+  text: "Calea de semnalizare WNT este implicată în principal în:",
+  options: [
+    "diferențiere și dezvoltare",
+    "replicare ADN",
+    "apoptoză exclusivă",
+    "reparare ADN"
+  ],
+  correct: 0
+},
+{
+  id: "C10-Q007",
+  course: 10,
+  type: "multiple",
+  text: "Căile de semnalizare implicate în dezvoltare includ:",
+  options: [
+    "WNT",
+    "Hedgehog",
+    "TGF-β",
+    "NER"
+  ],
+  correct: [0,1,2]
+},
+{
+  id: "C10-Q008",
+  course: 10,
+  type: "single",
+  text: "Calea Hedgehog este esențială pentru:",
+  options: [
+    "organizarea axei embrionare",
+    "replicarea ADN",
+    "metilarea ADN",
+    "repararea excizională"
+  ],
+  correct: 0
+},
+{
+  id: "C10-Q009",
+  course: 10,
+  type: "single",
+  text: "Familia proteinelor BMP aparține căii de semnalizare:",
+  options: [
+    "WNT",
+    "TGF-β",
+    "Hedgehog",
+    "Notch"
+  ],
+  correct: 1
+},
+{
+  id: "C10-Q010",
+  course: 10,
+  type: "multiple",
+  text: "Rolurile proteinelor TGF-β includ:",
+  options: [
+    "controlul proliferării",
+    "diferențiere celulară",
+    "angiogeneză",
+    "sinteza ribozomilor"
+  ],
+  correct: [0,1,2]
+},
+{
+  id: "C10-Q011",
+  course: 10,
+  type: "single",
+  text: "Determinarea sexului genetic este stabilită la:",
+  options: [
+    "implantare",
+    "fertilizare",
+    "organogeneză",
+    "pubertate"
+  ],
+  correct: 1
+},
+{
+  id: "C10-Q012",
+  course: 10,
+  type: "single",
+  text: "Gena SRY este localizată pe:",
+  options: [
+    "cromozomul X",
+    "cromozomul Y",
+    "cromozomul 21",
+    "cromozomul 7"
+  ],
+  correct: 1
+},
+{
+  id: "C10-Q013",
+  course: 10,
+  type: "multiple",
+  text: "Gena SRY determină:",
+  options: [
+    "diferențiere testiculară",
+    "expresia SOX9",
+    "diferențiere ovariană",
+    "inhibarea AMH"
+  ],
+  correct: [0,1]
+}
+{
+  id: "C10-Q014",
+  course: 10,
+  type: "single",
+  text: "Organogeneza reprezintă:",
+  options: [
+    "formarea organelor embrionare",
+    "diviziunea mitotică a celulelor",
+    "diferențierea gametilor",
+    "implantarea embrionului"
+  ],
+  correct: 0
+},
+{
+  id: "C10-Q015",
+  course: 10,
+  type: "single",
+  text: "Perioada cea mai sensibilă la agenți teratogeni este:",
+  options: [
+    "perioada embrionară",
+    "perioada fetală târzie",
+    "perioada neonatală",
+    "viața adultă"
+  ],
+  correct: 0
+},
+{
+  id: "C10-Q016",
+  course: 10,
+  type: "single",
+  text: "Teratogeneza reprezintă:",
+  options: [
+    "apariția malformațiilor congenitale",
+    "mutații genetice ereditare",
+    "proliferarea celulară necontrolată",
+    "diferențierea gonadelor"
+  ],
+  correct: 0
+},
+{
+  id: "C10-Q017",
+  course: 10,
+  type: "multiple",
+  text: "Defectele de tub neural includ:",
+  options: [
+    "anencefalie",
+    "spina bifida",
+    "acrocefalie",
+    "polidactilie"
+  ],
+  correct: [0,1]
+},
+{
+  id: "C10-Q018",
+  course: 10,
+  type: "single",
+  text: "Anencefalia este:",
+  options: [
+    "o anomalie congenitală letală",
+    "o boală metabolică",
+    "o displazie osoasă",
+    "o anomalie cromozomială"
+  ],
+  correct: 0
+},
+{
+  id: "C10-Q019",
+  course: 10,
+  type: "single",
+  text: "Spina bifida apare prin:",
+  options: [
+    "defect de închidere a tubului neural",
+    "mutație FGFR2",
+    "defect de diferențiere gonadală",
+    "aneuploidie"
+  ],
+  correct: 0
+},
+{
+  id: "C10-Q020",
+  course: 10,
+  type: "single",
+  text: "Talidomida este cunoscută pentru:",
+  options: [
+    "efect teratogen sever",
+    "efect antiviral",
+    "stimularea creșterii fetale",
+    "absența efectelor embrionare"
+  ],
+  correct: 0
+},
+{
+  id: "C10-Q021",
+  course: 10,
+  type: "multiple",
+  text: "Efectele talidomidei includ:",
+  options: [
+    "amelie",
+    "focomelie",
+    "microcefalie",
+    "polidactilie"
+  ],
+  correct: [0,1]
+},
+{
+  id: "C10-Q022",
+  course: 10,
+  type: "single",
+  text: "Disrupțiile sunt anomalii produse prin:",
+  options: [
+    "distrugerea unei structuri normal formate",
+    "organizare celulară anormală",
+    "defect genetic primar",
+    "aneuploidie"
+  ],
+  correct: 0
+},
+{
+  id: "C10-Q023",
+  course: 10,
+  type: "single",
+  text: "Deformațiile sunt cauzate în principal de:",
+  options: [
+    "compresii mecanice externe",
+    "mutații genice",
+    "defecte cromozomiale",
+    "agenți infecțioși"
+  ],
+  correct: 0
+},
+{
+  id: "C10-Q024",
+  course: 10,
+  type: "single",
+  text: "Displaziile sunt caracterizate prin:",
+  options: [
+    "organizare celulară anormală a unui țesut",
+    "distrugerea unei structuri formate",
+    "defecte de închidere embrionară",
+    "aneuploidii"
+  ],
+  correct: 0
+},
+{
+  id: "C10-Q025",
+  course: 10,
+  type: "single",
+  text: "Acondroplazia este cauzată de mutații în gena:",
+  options: [
+    "FGFR3",
+    "FGFR2",
+    "PTCH",
+    "SOX9"
+  ],
+  correct: 0
+},
+{
+  id: "C10-Q026",
+  course: 10,
+  type: "single",
+  text: "Sindromul Crouzon este asociat cu mutații ale genei:",
+  options: [
+    "FGFR2",
+    "FGFR3",
+    "PTCH",
+    "HOX"
+  ],
+  correct: 0
+},
+{
+  id: "C10-Q027",
+  course: 10,
+  type: "single",
+  text: "Fibrodisplazia osificantă progresivă este cauzată de mutații în gena:",
+  options: [
+    "ACVR1",
+    "FGFR2",
+    "WNT4",
+    "DAX1"
+  ],
+  correct: 0
+},
+{
+  id: "C10-Q028",
+  course: 10,
+  type: "single",
+  text: "Diferențierea ovariană este condiționată de gene precum:",
+  options: [
+    "WNT4 și DAX1",
+    "SRY și SOX9",
+    "AMH",
+    "FGFR3"
+  ],
+  correct: 0
+},
+{
+  id: "C10-Q029",
+  course: 10,
+  type: "single",
+  text: "Persistența ductelor mülleriene este o anomalie a:",
+  options: [
+    "diferențierii sexuale",
+    "replicării ADN",
+    "cromatinei",
+    "apoptozei"
+  ],
+  correct: 0
+},
+{
+  id: "C10-Q030",
+  course: 10,
+  type: "multiple",
+  text: "Mecanismele fundamentale ale dezvoltării embrionare includ:",
+  options: [
+    "reglare genică",
+    "semnalizare intercelulară",
+    "polaritate celulară",
+    "apoptoză"
+  ],
+  correct: [0,1,2,3]
+}
+{
+  id: "C11-Q001",
+  course: 11,
+  type: "single",
+  text: "Citogenetica clinică studiază:",
+  options: [
+    "anomaliile cromozomiale și efectele lor clinice",
+    "mutațiile punctiforme",
+    "expresia genică",
+    "replicarea ADN"
+  ],
+  correct: 0
+},
+{
+  id: "C11-Q002",
+  course: 11,
+  type: "single",
+  text: "Cariotipul reprezintă:",
+  options: [
+    "totalitatea cromozomilor unei celule, ordonați după mărime și morfologie",
+    "numărul genelor unui individ",
+    "structura genei",
+    "secvența ADN"
+  ],
+  correct: 0
+},
+{
+  id: "C11-Q003",
+  course: 11,
+  type: "single",
+  text: "Aneuploidia reprezintă:",
+  options: [
+    "modificarea numărului unui sau mai multor cromozomi",
+    "modificarea structurii cromozomilor",
+    "poliploidie",
+    "mutație punctiformă"
+  ],
+  correct: 0
+},
+{
+  id: "C11-Q004",
+  course: 11,
+  type: "single",
+  text: "Cea mai frecventă cauză a aneuploidiilor este:",
+  options: [
+    "nondisjuncția cromozomială",
+    "deleția",
+    "translocația",
+    "inversia"
+  ],
+  correct: 0
+},
+{
+  id: "C11-Q005",
+  course: 11,
+  type: "multiple",
+  text: "Aneuploidii autozomale viabile includ:",
+  options: [
+    "trisomia 21",
+    "trisomia 18",
+    "trisomia 13",
+    "monosomia 21"
+  ],
+  correct: [0,1,2]
+},
+{
+  id: "C11-Q006",
+  course: 11,
+  type: "single",
+  text: "Sindromul Down este determinat de:",
+  options: [
+    "trisomia cromozomului 21",
+    "monosomia X",
+    "trisomia 18",
+    "trisomia 13"
+  ],
+  correct: 0
+},
+{
+  id: "C11-Q007",
+  course: 11,
+  type: "single",
+  text: "Trisomia 18 poartă denumirea de:",
+  options: [
+    "sindrom Edwards",
+    "sindrom Patau",
+    "sindrom Turner",
+    "sindrom Klinefelter"
+  ],
+  correct: 0
+},
+{
+  id: "C11-Q008",
+  course: 11,
+  type: "single",
+  text: "Trisomia 13 este cunoscută ca:",
+  options: [
+    "sindrom Patau",
+    "sindrom Edwards",
+    "sindrom Down",
+    "sindrom Cri-du-chat"
+  ],
+  correct: 0
+},
+{
+  id: "C11-Q009",
+  course: 11,
+  type: "single",
+  text: "Singura monosomie compatibilă cu viața este:",
+  options: [
+    "monosomia X",
+    "monosomia 21",
+    "monosomia 18",
+    "monosomia 13"
+  ],
+  correct: 0
+},
+{
+  id: "C11-Q010",
+  course: 11,
+  type: "single",
+  text: "Sindromul Turner are cariotipul clasic:",
+  options: [
+    "45,X",
+    "47,XXX",
+    "47,XXY",
+    "46,XX"
+  ],
+  correct: 0
+},
+{
+  id: "C11-Q011",
+  course: 11,
+  type: "single",
+  text: "Sindromul Klinefelter are cariotipul:",
+  options: [
+    "47,XXY",
+    "45,X",
+    "47,XXX",
+    "46,XY"
+  ],
+  correct: 0
+},
+{
+  id: "C11-Q012",
+  course: 11,
+  type: "single",
+  text: "Diagnosticul clinic al sindromului Klinefelter se stabilește cel mai frecvent:",
+  options: [
+    "după pubertate",
+    "în perioada neonatală",
+    "în viața intrauterină",
+    "la naștere"
+  ],
+  correct: 0
+},
+{
+  id: "C11-Q013",
+  course: 11,
+  type: "multiple",
+  text: "Caracteristici ale sindromului Turner includ:",
+  options: [
+    "infertilitate",
+    "statură mică",
+    "amenoree primară",
+    "hipertrofie testiculară"
+  ],
+  correct: [0,1,2]
+},
+{
+  id: "C11-Q014",
+  course: 11,
+  type: "multiple",
+  text: "Manifestări clinice ale sindromului Klinefelter includ:",
+  options: [
+    "ginecomastie",
+    "infertilitate",
+    "hipogonadism",
+    "dezvoltare intelectuală sever afectată"
+  ],
+  correct: [0,1,2]
+},
+{
+  id: "C11-Q015",
+  course: 11,
+  type: "single",
+  text: "La femeile cu cariotip 47,XXX, numărul cromozomilor X activi este:",
+  options: [
+    "1",
+    "2",
+    "3",
+    "0"
+  ],
+  correct: 0
+}
+{
+  id: "C11-Q016",
+  course: 11,
+  type: "single",
+  text: "Bolile mendeliene sunt determinate de:",
+  options: [
+    "mutații ale unei singure gene",
+    "aneuploidii",
+    "poliploidii",
+    "factori exclusiv de mediu"
+  ],
+  correct: 0
+},
+{
+  id: "C11-Q017",
+  course: 11,
+  type: "single",
+  text: "Transmiterea autozomal dominantă se caracterizează prin:",
+  options: [
+    "afectarea succesivă a mai multor generații",
+    "afectarea exclusivă a bărbaților",
+    "apariția bolii doar la homozigoți",
+    "lipsa transmiterii verticale"
+  ],
+  correct: 0
+},
+{
+  id: "C11-Q018",
+  course: 11,
+  type: "multiple",
+  text: "Exemple de boli autozomal dominante sunt:",
+  options: [
+    "boala Huntington",
+    "acondroplazia",
+    "osteogeneza imperfectă",
+    "fibroza chistică"
+  ],
+  correct: [0,1,2]
+},
+{
+  id: "C11-Q019",
+  course: 11,
+  type: "single",
+  text: "Transmiterea autozomal recesivă se caracterizează prin:",
+  options: [
+    "părinți clinic sănătoși purtători",
+    "afectarea fiecărei generații",
+    "transmitere exclusiv maternă",
+    "afectarea doar a bărbaților"
+  ],
+  correct: 0
+},
+{
+  id: "C11-Q020",
+  course: 11,
+  type: "multiple",
+  text: "Boli autozomal recesive includ:",
+  options: [
+    "fibroza chistică",
+    "fenilcetonuria",
+    "anemia falciformă",
+    "sindromul Marfan"
+  ],
+  correct: [0,1,2]
+},
+{
+  id: "C11-Q021",
+  course: 11,
+  type: "single",
+  text: "Distrofia musculară Duchenne este transmisă:",
+  options: [
+    "recesiv legat de cromozomul X",
+    "dominant legat de cromozomul X",
+    "auto-zomal recesiv",
+    "auto-zomal dominant"
+  ],
+  correct: 0
+},
+{
+  id: "C11-Q022",
+  course: 11,
+  type: "single",
+  text: "În bolile X-linkate recesive, femeile sunt de obicei:",
+  options: [
+    "purtătoare asimptomatice",
+    "întotdeauna afectate",
+    "mai sever afectate decât bărbații",
+    "fără niciun rol în transmitere"
+  ],
+  correct: 0
+},
+{
+  id: "C11-Q023",
+  course: 11,
+  type: "multiple",
+  text: "Factori care influențează severitatea fenotipică includ:",
+  options: [
+    "dimensiunea segmentului de ADN afectat",
+    "cantitatea de eucromatină implicată",
+    "funcția genei afectate",
+    "vârsta părinților"
+  ],
+  correct: [0,1,2]
+},
+{
+  id: "C11-Q024",
+  course: 11,
+  type: "single",
+  text: "Penetranța reprezintă:",
+  options: [
+    "proporția indivizilor cu genotip mutant care exprimă fenotipul",
+    "gradul de severitate al manifestărilor clinice",
+    "numărul de mutații dintr-o genă",
+    "rata de transmitere a bolii"
+  ],
+  correct: 0
+},
+{
+  id: "C11-Q025",
+  course: 11,
+  type: "single",
+  text: "Expresivitatea unei boli genetice descrie:",
+  options: [
+    "variabilitatea manifestărilor clinice",
+    "probabilitatea apariției bolii",
+    "tipul de transmitere genetică",
+    "numărul de gene implicate"
+  ],
+  correct: 0
+},
+{
+  id: "C11-Q026",
+  course: 11,
+  type: "multiple",
+  text: "Caracteristici ale bolilor genetice dominante includ:",
+  options: [
+    "risc de transmitere de 50%",
+    "afectarea ambelor sexe",
+    "transmitere verticală",
+    "părinți întotdeauna neafectați"
+  ],
+  correct: [0,1,2]
+},
+{
+  id: "C11-Q027",
+  course: 11,
+  type: "single",
+  text: "Sindromul Marfan este o boală:",
+  options: [
+    "auto-zomal dominantă",
+    "auto-zomal recesivă",
+    "X-linkată",
+    "mitocondrială"
+  ],
+  correct: 0
+},
+{
+  id: "C11-Q028",
+  course: 11,
+  type: "single",
+  text: "Anemia falciformă este determinată de:",
+  options: [
+    "o mutație punctiformă în gena beta-globinei",
+    "o deleție cromozomială",
+    "aneuploidie",
+    "defect de splicing"
+  ],
+  correct: 0
+},
+{
+  id: "C11-Q029",
+  course: 11,
+  type: "single",
+  text: "Heterozigoții pentru boli autozomal recesive sunt de obicei:",
+  options: [
+    "asimptomatici",
+    "sever afectați",
+    "letali",
+    "întotdeauna simptomatici"
+  ],
+  correct: 0
+},
+{
+  id: "C11-Q030",
+  course: 11,
+  type: "multiple",
+  text: "Boli genetice cu transmitere dominantă includ:",
+  options: [
+    "boala Huntington",
+    "acondroplazia",
+    "osteogeneza imperfectă",
+    "fenilcetonuria"
+  ],
+  correct: [0,1,2]
+}
+{
+  id: "C12-Q001",
+  course: 12,
+  type: "single",
+  text: "Bolile mitocondriale sunt determinate de mutații:",
+  options: [
+    "în ADN-ul mitocondrial și/sau nuclear",
+    "exclusiv în ADN-ul nuclear",
+    "exclusiv în cromozomul X",
+    "doar în genele reglatoare"
+  ],
+  correct: 0
+},
+{
+  id: "C12-Q002",
+  course: 12,
+  type: "single",
+  text: "Transmiterea bolilor mitocondriale este:",
+  options: [
+    "maternă",
+    "paternă",
+    "auto-zomal dominantă",
+    "auto-zomal recesivă"
+  ],
+  correct: 0
+},
+{
+  id: "C12-Q003",
+  course: 12,
+  type: "multiple",
+  text: "Caracteristici ale bolilor mitocondriale includ:",
+  options: [
+    "heterogenitate clinică",
+    "afectarea țesuturilor cu consum energetic mare",
+    "transmitere exclusiv paternă",
+    "variabilitate fenotipică"
+  ],
+  correct: [0,1,3]
+},
+{
+  id: "C12-Q004",
+  course: 12,
+  type: "single",
+  text: "Heteroplazia mitocondrială reprezintă:",
+  options: [
+    "coexistența ADNmt normal și mutant în aceeași celulă",
+    "prezența mai multor mutații nucleare",
+    "duplicarea ADNmt",
+    "lipsa ADNmt"
+  ],
+  correct: 0
+},
+{
+  id: "C12-Q005",
+  course: 12,
+  type: "single",
+  text: "Țesuturile cel mai frecvent afectate în bolile mitocondriale sunt:",
+  options: [
+    "sistemul nervos și musculatura",
+    "pielea și fanerele",
+    "țesutul adipos",
+    "țesutul conjunctiv"
+  ],
+  correct: 0
+},
+{
+  id: "C12-Q006",
+  course: 12,
+  type: "multiple",
+  text: "Manifestări clinice frecvente în bolile mitocondriale includ:",
+  options: [
+    "miopatie",
+    "encefalopatie",
+    "surditate",
+    "ginecomastie"
+  ],
+  correct: [0,1,2]
+},
+{
+  id: "C12-Q007",
+  course: 12,
+  type: "single",
+  text: "Sindromul MELAS se caracterizează prin:",
+  options: [
+    "encefalomiopatie mitocondrială, acidoză lactică și episoade stroke-like",
+    "afectare hepatică izolată",
+    "defect de tub neural",
+    "aneuploidie"
+  ],
+  correct: 0
+},
+{
+  id: "C12-Q008",
+  course: 12,
+  type: "single",
+  text: "Sindromul MERRF este caracterizat prin:",
+  options: [
+    "epilepsie mioclonică și fibre roșii zdrențuite",
+    "hipogonadism",
+    "surditate izolată",
+    "malformații cardiace congenitale"
+  ],
+  correct: 0
+},
+{
+  id: "C12-Q009",
+  course: 12,
+  type: "single",
+  text: "Boala LHON afectează predominant:",
+  options: [
+    "nervul optic",
+    "miocardul",
+    "rinichiul",
+    "ficatul"
+  ],
+  correct: 0
+},
+{
+  id: "C12-Q010",
+  course: 12,
+  type: "single",
+  text: "Diagnosticul bolilor mitocondriale se bazează pe:",
+  options: [
+    "examen clinic, istoric familial și teste biochimice",
+    "doar cariotip",
+    "teste serologice",
+    "screening neonatal standard"
+  ],
+  correct: 0
+},
+{
+  id: "C12-Q011",
+  course: 12,
+  type: "single",
+  text: "Bolile multifactoriale sunt determinate de:",
+  options: [
+    "interacțiunea dintre factori genetici și de mediu",
+    "o singură mutație genică",
+    "aneuploidii",
+    "doar factori de mediu"
+  ],
+  correct: 0
+},
+{
+  id: "C12-Q012",
+  course: 12,
+  type: "multiple",
+  text: "Exemple de boli multifactoriale includ:",
+  options: [
+    "diabetul zaharat",
+    "hipertensiunea arterială",
+    "bolile cardiovasculare",
+    "fenilcetonuria"
+  ],
+  correct: [0,1,2]
+},
+{
+  id: "C12-Q013",
+  course: 12,
+  type: "single",
+  text: "Bolile multifactoriale se caracterizează prin:",
+  options: [
+    "agregare familială fără tipar mendelian",
+    "transmitere verticală constantă",
+    "afectarea exclusivă a unui sex",
+    "penetranță completă"
+  ],
+  correct: 0
+},
+{
+  id: "C12-Q014",
+  course: 12,
+  type: "single",
+  text: "Obezitatea este considerată o boală:",
+  options: [
+    "multifactorială",
+    "auto-zomal dominantă",
+    "mitocondrială",
+    "cromozomială"
+  ],
+  correct: 0
+},
+{
+  id: "C12-Q015",
+  course: 12,
+  type: "multiple",
+  text: "Sistemul hipotalamus–leptină–melanocortină este implicat în:",
+  options: [
+    "reglarea apetitului",
+    "controlul greutății corporale",
+    "diferențierea gonadelor",
+    "replicarea ADN"
+  ],
+  correct: [0,1]
+}
+{
+  id: "C12-Q016",
+  course: 12,
+  type: "single",
+  text: "Epigenetica studiază:",
+  options: [
+    "modificări ale expresiei genice fără modificarea secvenței ADN",
+    "mutații punctiforme",
+    "aneuploidii",
+    "rearanjări cromozomiale"
+  ],
+  correct: 0
+},
+{
+  id: "C12-Q017",
+  course: 12,
+  type: "multiple",
+  text: "Mecanisme epigenetice includ:",
+  options: [
+    "metilarea ADN",
+    "modificările histonelor",
+    "ARN non-codant",
+    "deleții cromozomiale"
+  ],
+  correct: [0,1,2]
+},
+{
+  id: "C12-Q018",
+  course: 12,
+  type: "single",
+  text: "Metilarea ADN are ca efect principal:",
+  options: [
+    "inhibarea expresiei genice",
+    "activarea transcripției",
+    "replicarea ADN",
+    "stimularea recombinării"
+  ],
+  correct: 0
+},
+{
+  id: "C12-Q019",
+  course: 12,
+  type: "single",
+  text: "Insulele CpG sunt regiuni:",
+  options: [
+    "bogate în secvențe CG la nivelul promotorilor",
+    "localizate exclusiv în ADN mitocondrial",
+    "caracteristice heterocromatinei",
+    "specifice cromozomului X"
+  ],
+  correct: 0
+},
+{
+  id: "C12-Q020",
+  course: 12,
+  type: "single",
+  text: "Imprintingul genomic reprezintă:",
+  options: [
+    "expresia dependentă de originea parentală a unei gene",
+    "inactivarea aleatorie a cromozomului X",
+    "mutații letale embrionare",
+    "polimorfism genetic"
+  ],
+  correct: 0
+},
+{
+  id: "C12-Q021",
+  course: 12,
+  type: "single",
+  text: "Sindromul Prader–Willi este determinat de:",
+  options: [
+    "absența expresiei genelor paterne de pe cromozomul 15",
+    "absența expresiei genelor materne de pe cromozomul 15",
+    "trisomia 15",
+    "mutații mitocondriale"
+  ],
+  correct: 0
+},
+{
+  id: "C12-Q022",
+  course: 12,
+  type: "single",
+  text: "Sindromul Angelman este cauzat de:",
+  options: [
+    "absența expresiei genelor materne de pe cromozomul 15",
+    "absența expresiei genelor paterne de pe cromozomul 15",
+    "monosomia 15",
+    "mutații X-linkate"
+  ],
+  correct: 0
+},
+{
+  id: "C12-Q023",
+  course: 12,
+  type: "multiple",
+  text: "Caracteristici ale sindromului Angelman includ:",
+  options: [
+    "retard intelectual sever",
+    "ataxie",
+    "râs nemotivat",
+    "hipotonie neonatală izolată"
+  ],
+  correct: [0,1,2]
+},
+{
+  id: "C12-Q024",
+  course: 12,
+  type: "multiple",
+  text: "Caracteristici ale sindromului Prader–Willi includ:",
+  options: [
+    "hipotonie neonatală",
+    "hiperfagie",
+    "obezitate",
+    "convulsii frecvente"
+  ],
+  correct: [0,1,2]
+},
+{
+  id: "C12-Q025",
+  course: 12,
+  type: "single",
+  text: "Inactivarea cromozomului X este:",
+  options: [
+    "un mecanism epigenetic",
+    "o mutație cromozomială",
+    "o aneuploidie",
+    "o deleție genică"
+  ],
+  correct: 0
+},
+{
+  id: "C12-Q026",
+  course: 12,
+  type: "single",
+  text: "Corpul Barr reprezintă:",
+  options: [
+    "cromozomul X inactivat",
+    "un cromozom Y aberant",
+    "heterocromatină constitutivă",
+    "un nucleol"
+  ],
+  correct: 0
+},
+{
+  id: "C12-Q027",
+  course: 12,
+  type: "multiple",
+  text: "Modificările epigenetice sunt implicate în:",
+  options: [
+    "cancer",
+    "îmbătrânire",
+    "boli multifactoriale",
+    "aneuploidii"
+  ],
+  correct: [0,1,2]
+},
+{
+  id: "C12-Q028",
+  course: 12,
+  type: "single",
+  text: "Îmbătrânirea celulară (senescența) apare din cauza:",
+  options: [
+    "leziunilor oxidative ale ADN",
+    "activării telomerazei",
+    "replicării accelerate",
+    "creșterii expresiei genice"
+  ],
+  correct: 0
+},
+{
+  id: "C12-Q029",
+  course: 12,
+  type: "multiple",
+  text: "Mecanisme implicate în senescență includ:",
+  options: [
+    "remodelarea cromatinei",
+    "acumularea de leziuni ADN",
+    "secreția de factori inflamatori",
+    "creșterea mitozei"
+  ],
+  correct: [0,1,2]
+},
+{
+  id: "C12-Q030",
+  course: 12,
+  type: "single",
+  text: "Bolile epigenetice se caracterizează prin:",
+  options: [
+    "modificări reversibile ale expresiei genice",
+    "mutații structurale permanente",
+    "aneuploidii",
+    "poliploidii"
+  ],
+  correct: 0
+}
+{
+  id: "C13-Q001",
+  course: 13,
+  type: "single",
+  text: "Diagnosticul molecular reprezintă:",
+  options: [
+    "identificarea modificărilor genetice la nivel ADN/ARN",
+    "diagnosticul clinic bazat pe fenotip",
+    "diagnosticul citogenetic clasic",
+    "screeningul populațional"
+  ],
+  correct: 0
+},
+{
+  id: "C13-Q002",
+  course: 13,
+  type: "single",
+  text: "PCR (polymerase chain reaction) permite:",
+  options: [
+    "amplificarea in vitro a unui fragment specific de ADN",
+    "secvențierea întregului genom",
+    "vizualizarea cromozomilor",
+    "determinarea expresiei proteice"
+  ],
+  correct: 0
+},
+{
+  id: "C13-Q003",
+  course: 13,
+  type: "multiple",
+  text: "Componentele esențiale ale reacției PCR sunt:",
+  options: [
+    "ADN matriță",
+    "primeri",
+    "ADN polimerază termostabilă",
+    "ribozomi"
+  ],
+  correct: [0,1,2]
+},
+{
+  id: "C13-Q004",
+  course: 13,
+  type: "single",
+  text: "ADN polimeraza utilizată clasic în PCR este:",
+  options: [
+    "Taq polimeraza",
+    "ARN polimeraza II",
+    "ADN polimeraza I",
+    "telomeraza"
+  ],
+  correct: 0
+},
+{
+  id: "C13-Q005",
+  course: 13,
+  type: "single",
+  text: "Etapele reacției PCR includ, în ordine:",
+  options: [
+    "denaturare – annealing – elongare",
+    "elongare – denaturare – annealing",
+    "annealing – elongare – denaturare",
+    "replicare – transcripție – translație"
+  ],
+  correct: 0
+},
+{
+  id: "C13-Q006",
+  course: 13,
+  type: "single",
+  text: "PCR este utilizată în diagnostic pentru:",
+  options: [
+    "identificarea mutațiilor genice",
+    "diagnosticul citogenetic clasic",
+    "determinarea cariotipului",
+    "vizualizarea heterocromatinei"
+  ],
+  correct: 0
+},
+{
+  id: "C13-Q007",
+  course: 13,
+  type: "multiple",
+  text: "Tehnici de diagnostic molecular includ:",
+  options: [
+    "PCR",
+    "secvențiere ADN",
+    "FISH",
+    "kariotip clasic"
+  ],
+  correct: [0,1,2]
+},
+{
+  id: "C13-Q008",
+  course: 13,
+  type: "single",
+  text: "Secvențierea ADN permite:",
+  options: [
+    "determinarea ordinii nucleotidelor într-o secvență",
+    "amplificarea ADN",
+    "inactivarea genelor",
+    "metilarea ADN"
+  ],
+  correct: 0
+},
+{
+  id: "C13-Q009",
+  course: 13,
+  type: "single",
+  text: "NGS (Next Generation Sequencing) se caracterizează prin:",
+  options: [
+    "secvențiere masiv paralelă",
+    "analiza unui singur fragment ADN",
+    "costuri foarte mari și timp îndelungat",
+    "utilizare exclusiv experimentală"
+  ],
+  correct: 0
+},
+{
+  id: "C13-Q010",
+  course: 13,
+  type: "single",
+  text: "FISH este o tehnică utilizată pentru:",
+  options: [
+    "detectarea anomaliilor cromozomiale specifice",
+    "amplificarea ADN",
+    "analiza expresiei genice",
+    "metilarea ADN"
+  ],
+  correct: 0
+},
+{
+  id: "C13-Q011",
+  course: 13,
+  type: "multiple",
+  text: "Indicații pentru utilizarea FISH includ:",
+  options: [
+    "microdeleții",
+    "translocații specifice",
+    "aneuploidii",
+    "mutații punctiforme izolate"
+  ],
+  correct: [0,1,2]
+},
+{
+  id: "C13-Q012",
+  course: 13,
+  type: "single",
+  text: "CGH-array este utilizat pentru:",
+  options: [
+    "detectarea variațiilor de număr de copii (CNV)",
+    "identificarea mutațiilor punctiforme",
+    "diagnosticul mitocondrial",
+    "screening neonatal"
+  ],
+  correct: 0
+},
+{
+  id: "C13-Q013",
+  course: 13,
+  type: "single",
+  text: "Diagnosticul molecular prenatal se poate realiza pe probe obținute prin:",
+  options: [
+    "amniocenteză",
+    "cordocenteză",
+    "biopsie de vilozități coriale",
+    "toate variantele"
+  ],
+  correct: 3
+},
+{
+  id: "C13-Q014",
+  course: 13,
+  type: "single",
+  text: "Diagnosticul genetic preimplantator (DPI) se efectuează:",
+  options: [
+    "pe embrioni obținuți prin fertilizare in vitro",
+    "în trimestrul I de sarcină",
+    "postnatal",
+    "în screening neonatal"
+  ],
+  correct: 0
+},
+{
+  id: "C13-Q015",
+  course: 13,
+  type: "single",
+  text: "În diagnosticul preimplantator se recoltează de obicei:",
+  options: [
+    "1–2 blastomere",
+    "lichid amniotic",
+    "sânge fetal",
+    "placentă"
+  ],
+  correct: 0
+}
+{
+  id: "C13-Q016",
+  course: 13,
+  type: "single",
+  text: "Screeningul prenatal are ca scop principal:",
+  options: [
+    "identificarea sarcinilor cu risc crescut de anomalii genetice",
+    "stabilirea diagnosticului definitiv",
+    "tratamentul intrauterin",
+    "determinarea sexului fetal"
+  ],
+  correct: 0
+},
+{
+  id: "C13-Q017",
+  course: 13,
+  type: "single",
+  text: "Screeningul prenatal NU este:",
+  options: [
+    "o metodă de diagnostic cert",
+    "o metodă de evaluare a riscului",
+    "non-invaziv",
+    "aplicabil populațional"
+  ],
+  correct: 0
+},
+{
+  id: "C13-Q018",
+  course: 13,
+  type: "multiple",
+  text: "Metode de screening prenatal includ:",
+  options: [
+    "ecografia de trimestru I",
+    "dozările biochimice materne",
+    "NIPT (ADN fetal liber circulant)",
+    "amniocenteza"
+  ],
+  correct: [0,1,2]
+},
+{
+  id: "C13-Q019",
+  course: 13,
+  type: "single",
+  text: "ADN-ul fetal liber circulant (cffDNA) provine în principal din:",
+  options: [
+    "placentă",
+    "ficatul fetal",
+    "lichidul amniotic",
+    "cordonul ombilical"
+  ],
+  correct: 0
+},
+{
+  id: "C13-Q020",
+  course: 13,
+  type: "single",
+  text: "Avantajul major al testelor NIPT este:",
+  options: [
+    "caracterul non-invaziv",
+    "diagnostic definitiv",
+    "cost redus",
+    "detectarea tuturor mutațiilor"
+  ],
+  correct: 0
+},
+{
+  id: "C13-Q021",
+  course: 13,
+  type: "single",
+  text: "NIPT este utilizat în principal pentru detectarea:",
+  options: [
+    "aneuploidii frecvente",
+    "mutații punctiforme rare",
+    "boli mitocondriale",
+    "rearanjări echilibrate"
+  ],
+  correct: 0
+},
+{
+  id: "C13-Q022",
+  course: 13,
+  type: "multiple",
+  text: "Aneuploidiile frecvent detectate prin NIPT includ:",
+  options: [
+    "trisomia 21",
+    "trisomia 18",
+    "trisomia 13",
+    "monosomia X"
+  ],
+  correct: [0,1,2,3]
+},
+{
+  id: "C13-Q023",
+  course: 13,
+  type: "single",
+  text: "Un rezultat NIPT pozitiv necesită:",
+  options: [
+    "confirmare prin test diagnostic invaziv",
+    "întreruperea automată a sarcinii",
+    "repetarea NIPT",
+    "monitorizare fără investigații suplimentare"
+  ],
+  correct: 0
+},
+{
+  id: "C13-Q024",
+  course: 13,
+  type: "single",
+  text: "Screeningul neonatal are ca scop:",
+  options: [
+    "identificarea precoce a bolilor tratabile",
+    "diagnosticul prenatal",
+    "evaluarea riscului familial",
+    "determinarea cariotipului"
+  ],
+  correct: 0
+},
+{
+  id: "C13-Q025",
+  course: 13,
+  type: "multiple",
+  text: "Caracteristicile bolilor incluse în screeningul neonatal sunt:",
+  options: [
+    "debut precoce",
+    "evoluție severă netratată",
+    "tratament disponibil",
+    "transmitere exclusiv dominantă"
+  ],
+  correct: [0,1,2]
+},
+{
+  id: "C13-Q026",
+  course: 13,
+  type: "single",
+  text: "Proba utilizată în screeningul neonatal este:",
+  options: [
+    "sângele capilar recoltat pe hârtie de filtru",
+    "sângele venos",
+    "saliva",
+    "urina"
+  ],
+  correct: 0
+},
+{
+  id: "C13-Q027",
+  course: 13,
+  type: "single",
+  text: "Un exemplu clasic de boală inclusă în screeningul neonatal este:",
+  options: [
+    "fenilcetonuria",
+    "sindromul Down",
+    "boala Huntington",
+    "distrofia Duchenne"
+  ],
+  correct: 0
+},
+{
+  id: "C13-Q028",
+  course: 13,
+  type: "single",
+  text: "Consilierea genetică reprezintă:",
+  options: [
+    "un proces de informare și suport pentru pacienți și familii",
+    "stabilirea diagnosticului genetic",
+    "tratamentul bolilor genetice",
+    "screening populațional"
+  ],
+  correct: 0
+},
+{
+  id: "C13-Q029",
+  course: 13,
+  type: "multiple",
+  text: "Obiectivele consilierii genetice includ:",
+  options: [
+    "explicarea diagnosticului",
+    "estimarea riscului de recurență",
+    "sprijin psihologic",
+    "impunerea unei decizii reproductive"
+  ],
+  correct: [0,1,2]
+},
+{
+  id: "C13-Q030",
+  course: 13,
+  type: "single",
+  text: "Consilierea genetică trebuie să fie:",
+  options: [
+    "non-directivă",
+    "imperativă",
+    "bazată pe presiune decizională",
+    "orientată exclusiv medical"
+  ],
+  correct: 0
+}
+
 
