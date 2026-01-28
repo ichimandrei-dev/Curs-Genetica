@@ -1,6 +1,6 @@
 const QUESTIONS = [
   {
-    id: "C1-Q0001",
+    id: "C1-Q022",
     course: 1,
     type: "single",
     text: "Structura ADN este:",
@@ -14,7 +14,7 @@ const QUESTIONS = [
   },
 
   {
-    id: "C1-Q0002",
+    id: "C1-Q023",
     course: 1,
     type: "multiple",
     text: "Bazele azotate purinice sunt:",
@@ -4458,10 +4458,9 @@ const QUESTIONS = [
     "orientată exclusiv medical"
   ],
   correct: 0
-}
 },
 {
-  id: "C13-Q050",
+  id: "C13-Q031",
   course: 13,
   type: "single",
   text: "Întrebare exemplu finală",
