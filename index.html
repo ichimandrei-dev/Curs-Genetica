@@ -1,71 +1,348 @@
 <!DOCTYPE html>
 <html lang="ro">
 <head>
-  <meta charset="UTF-8">
-  <title>Genetică Medicală – Grile</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Platformă de pregătire pentru examenul de Genetică Medicală - 250 grile organizate pe 13 cursuri">
+    <title>🧬 Grile Genetică Medicală</title>
+    <style>
+        :root {
+            --bg-primary: #0a0e27;
+            --bg-secondary: #151934;
+            --bg-tertiary: #1e2440;
+            --text-primary: #ffffff;
+            --text-secondary: #9ca3af;
+            --border-color: #2d3548;
+            --accent-blue: #3b82f6;
+            --accent-green: #22c55e;
+            --accent-red: #ef4444;
+        }
 
-  <style>
-    body {
-      font-family: Arial, sans-serif;
-      background: #f7f7f7;
-      padding: 20px;
-      max-width: 900px;
-      margin: auto;
-    }
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
 
-    h1 { text-align: center; }
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', sans-serif;
+            background: var(--bg-primary);
+            color: var(--text-primary);
+            line-height: 1.6;
+        }
 
-    select, button {
-      padding: 10px;
-      margin: 5px;
-      font-size: 16px;
-    }
+        .screen {
+            display: none;
+            min-height: 100vh;
+        }
 
-    .question {
-      background: #fff;
-      padding: 15px;
-      margin-bottom: 15px;
-      border-radius: 6px;
-    }
+        .screen.active {
+            display: flex;
+            flex-direction: column;
+            animation: fadeIn 0.3s ease;
+        }
 
-    .options label {
-      display: block;
-      margin: 5px 0;
-      cursor: pointer;
-    }
+        @keyframes fadeIn {
+            from { opacity: 0; transform: translateY(10px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
 
-    #result {
-      font-size: 20px;
-      font-weight: bold;
-      margin-top: 20px;
-    }
-  </style>
+        /* Welcome Screen */
+        #welcomeScreen {
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+            padding: 2rem;
+        }
+
+        .welcome-title {
+            font-size: 3rem;
+            margin-bottom: 1rem;
+            background: linear-gradient(135deg, #3b82f6 0%, #8b5cf6 100%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+        }
+
+        .btn-large {
+            padding: 1.25rem 3rem;
+            font-size: 1.1rem;
+            font-weight: 600;
+            border: none;
+            border-radius: 1rem;
+            cursor: pointer;
+            background: linear-gradient(135deg, #3b82f6 0%, #8b5cf6 100%);
+            color: white;
+            box-shadow: 0 10px 30px rgba(59, 130, 246, 0.3);
+            transition: all 0.3s;
+        }
+
+        .btn-large:hover {
+            transform: translateY(-3px);
+            box-shadow: 0 15px 40px rgba(59, 130, 246, 0.4);
+        }
+
+        /* Header */
+        .app-header {
+            background: var(--bg-secondary);
+            border-bottom: 2px solid var(--border-color);
+            padding: 1.5rem 2rem;
+        }
+
+        .header-content {
+            max-width: 1400px;
+            margin: 0 auto;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            flex-wrap: wrap;
+            gap: 1rem;
+        }
+
+        /* Courses Grid */
+        .courses-grid {
+            max-width: 1400px;
+            margin: 0 auto;
+            padding: 2rem;
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+            gap: 1.5rem;
+        }
+
+        .course-card {
+            background: var(--bg-secondary);
+            border: 2px solid var(--border-color);
+            border-left-width: 4px;
+            border-radius: 1.25rem;
+            padding: 1.75rem;
+            cursor: pointer;
+            transition: all 0.3s;
+        }
+
+        .course-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 15px 30px rgba(0, 0, 0, 0.4);
+        }
+
+        .course-card:nth-child(1) { border-left-color: #ef4444; }
+        .course-card:nth-child(2) { border-left-color: #f97316; }
+        .course-card:nth-child(3) { border-left-color: #eab308; }
+        .course-card:nth-child(4) { border-left-color: #22c55e; }
+        .course-card:nth-child(5) { border-left-color: #3b82f6; }
+        .course-card:nth-child(6) { border-left-color: #8b5cf6; }
+        .course-card:nth-child(7) { border-left-color: #ec4899; }
+        .course-card:nth-child(8) { border-left-color: #14b8a6; }
+
+        .course-title {
+            font-size: 1.2rem;
+            font-weight: 600;
+            margin-bottom: 0.5rem;
+        }
+
+        .progress-bar {
+            height: 6px;
+            background: var(--bg-tertiary);
+            border-radius: 10px;
+            overflow: hidden;
+            margin-top: 1rem;
+        }
+
+        .progress-fill {
+            height: 100%;
+            background: linear-gradient(90deg, #3b82f6, #8b5cf6);
+            transition: width 0.5s;
+            border-radius: 10px;
+        }
+
+        /* Quiz Screen */
+        .quiz-container {
+            max-width: 900px;
+            margin: 2rem auto;
+            padding: 0 2rem;
+        }
+
+        .question-card {
+            background: var(--bg-secondary);
+            border: 2px solid var(--border-color);
+            border-radius: 1.5rem;
+            padding: 2.5rem;
+            margin-bottom: 2rem;
+        }
+
+        .question-text {
+            font-size: 1.4rem;
+            margin-bottom: 2rem;
+        }
+
+        .answer-option {
+            background: var(--bg-tertiary);
+            border: 2px solid var(--border-color);
+            border-radius: 1rem;
+            padding: 1.25rem;
+            margin-bottom: 1rem;
+            cursor: pointer;
+            transition: all 0.2s;
+            display: flex;
+            align-items: center;
+            gap: 1rem;
+        }
+
+        .answer-option:hover {
+            border-color: var(--accent-blue);
+        }
+
+        .answer-option.selected {
+            border-color: var(--accent-blue);
+            background: rgba(59, 130, 246, 0.1);
+        }
+
+        .answer-option.correct {
+            border-color: var(--accent-green);
+            background: rgba(34, 197, 94, 0.1);
+        }
+
+        .answer-option.wrong {
+            border-color: var(--accent-red);
+            background: rgba(239, 68, 68, 0.1);
+        }
+
+        .btn-submit {
+            width: 100%;
+            padding: 1.25rem;
+            font-size: 1.1rem;
+            font-weight: 600;
+            border: none;
+            border-radius: 1rem;
+            background: linear-gradient(135deg, #3b82f6, #8b5cf6);
+            color: white;
+            cursor: pointer;
+            transition: all 0.3s;
+        }
+
+        .btn-submit:hover:not(:disabled) {
+            transform: translateY(-2px);
+        }
+
+        .btn-submit:disabled {
+            opacity: 0.5;
+            cursor: not-allowed;
+        }
+
+        /* Results */
+        .results-container {
+            max-width: 700px;
+            margin: 0 auto;
+            padding: 2rem;
+            text-align: center;
+        }
+
+        .score-display {
+            font-size: 4rem;
+            font-weight: 700;
+            margin: 2rem 0;
+            background: linear-gradient(135deg, #3b82f6, #8b5cf6);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+
+        @media (max-width: 768px) {
+            .courses-grid {
+                grid-template-columns: 1fr;
+                padding: 1rem;
+            }
+        }
+    </style>
 </head>
-
 <body>
+    <div id="app">
+        <!-- Welcome Screen -->
+        <div id="welcomeScreen" class="screen active">
+            <div>
+                <h1 class="welcome-title">🧬 Grile Genetică Medicală</h1>
+                <p style="color: var(--text-secondary); font-size: 1.1rem; margin-bottom: 3rem;">
+                    Pregătire pentru examen • 250 întrebări • 13 cursuri
+                </p>
+                <button class="btn-large" onclick="app.startApp()">Începe pregătirea →</button>
+            </div>
+        </div>
 
-<h1>Genetică Medicală – Platformă de Grile</h1>
+        <!-- Courses Screen -->
+        <div id="coursesScreen" class="screen">
+            <header class="app-header">
+                <div class="header-content">
+                    <h1>📚 Cursuri Disponibile</h1>
+                    <div>
+                        <span style="color: var(--text-secondary);">Progres: </span>
+                        <span id="globalProgress" style="font-weight: 600;">0/250</span>
+                    </div>
+                </div>
+            </header>
+            <main class="courses-grid" id="coursesGrid"></main>
+        </div>
 
-<select id="courseSelect">
-  <option value="">Alege cursul</option>
-</select>
+        <!-- Quiz Screen -->
+        <div id="quizScreen" class="screen">
+            <header class="app-header">
+                <button onclick="app.showCoursesScreen()" style="background: transparent; border: none; color: var(--text-secondary); cursor: pointer; font-size: 1rem;">
+                    ← Înapoi
+                </button>
+                <div>
+                    <span id="progressText">1 / 20</span>
+                </div>
+            </header>
+            <main class="quiz-container">
+                <div class="question-card">
+                    <div style="color: var(--accent-blue); margin-bottom: 1rem;">
+                        <span id="questionBadge">ℹ️ Selectează răspunsul corect</span>
+                    </div>
+                    <h2 class="question-text" id="questionText"></h2>
+                    <div id="answersGrid"></div>
+                    <div id="feedbackBox" style="display: none; margin: 1rem 0; padding: 1rem; border-radius: 0.75rem;"></div>
+                    <button class="btn-submit" id="btnSubmit" onclick="app.checkAnswer()">Verifică răspunsul</button>
+                </div>
+                <div style="display: flex; gap: 1rem; margin-top: 1rem;">
+                    <button id="btnPrev" onclick="app.prevQuestion()" style="flex: 1; padding: 1rem; background: var(--bg-tertiary); border: 2px solid var(--border-color); color: white; border-radius: 0.75rem; cursor: pointer;">
+                        ← Anterior
+                    </button>
+                    <button id="btnNext" onclick="app.nextQuestion()" style="flex: 1; padding: 1rem; background: linear-gradient(135deg, #3b82f6, #8b5cf6); border: none; color: white; border-radius: 0.75rem; cursor: pointer;">
+                        Următoarea →
+                    </button>
+                </div>
+            </main>
+        </div>
 
-<br>
+        <!-- Results Screen -->
+        <div id="resultsScreen" class="screen">
+            <div class="results-container">
+                <h1 style="font-size: 2.5rem; margin-bottom: 1rem;">🎉 Rezultate</h1>
+                <div class="score-display">
+                    <span id="scoreNumber">0</span>
+                    <span style="font-size: 2rem; color: var(--text-secondary);">/ <span id="scoreTotal">20</span></span>
+                </div>
+                <div style="font-size: 2rem; margin-bottom: 2rem;" id="scorePercent">0%</div>
+                <div style="display: grid; grid-template-columns: repeat(3, 1fr); gap: 1rem; margin-bottom: 2rem;">
+                    <div style="background: var(--bg-secondary); padding: 1.5rem; border-radius: 1rem;">
+                        <div style="font-size: 2rem;">✓</div>
+                        <div style="font-size: 2rem; font-weight: 700;" id="correctAnswers">0</div>
+                        <div style="color: var(--text-secondary); font-size: 0.9rem;">Corecte</div>
+                    </div>
+                    <div style="background: var(--bg-secondary); padding: 1.5rem; border-radius: 1rem;">
+                        <div style="font-size: 2rem;">✗</div>
+                        <div style="font-size: 2rem; font-weight: 700;" id="wrongAnswers">0</div>
+                        <div style="color: var(--text-secondary); font-size: 0.9rem;">Greșite</div>
+                    </div>
+                    <div style="background: var(--bg-secondary); padding: 1.5rem; border-radius: 1rem;">
+                        <div style="font-size: 2rem;">⏱️</div>
+                        <div style="font-size: 2rem; font-weight: 700;" id="timeSpent">0m</div>
+                        <div style="color: var(--text-secondary); font-size: 0.9rem;">Timp</div>
+                    </div>
+                </div>
+                <button class="btn-large" onclick="app.showCoursesScreen()">🏠 Înapoi la cursuri</button>
+            </div>
+        </div>
+    </div>
 
-<button onclick="startPractice()">Practică</button>
-<button onclick="startExam()">Simulare examen</button>
-
-<hr>
-
-<div id="quiz"></div>
-
-<button id="finishBtn" style="display:none" onclick="finishExam()">Finalizează</button>
-
-<div id="result"></div>
-
-<script src="data.js"></script>
-<script src="app.js"></script>
-
+    <script src="data.js"></script>
+    <script src="app.js"></script>
 </body>
 </html>
