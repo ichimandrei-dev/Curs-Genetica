@@ -1,3 +1,18 @@
+import course1 from "./data/course1.js";
+import course2 from "./data/course2.js";
+import course3 from "./data/course3.js";
+// ...
+import course13 from "./data/course13.js";
+
+const QUESTIONS = [
+  ...course1,
+  ...course2,
+  ...course3,
+  // ...
+  ...course13
+];
+Total questions loaded: 250
+export default QUESTIONS;
 // ============================================
 // DATA.JS - Cursuri și Întrebări
 // Grile Genetică Medicală
@@ -361,3 +376,235 @@ function getCourseStats(courseId) {
         multiplu: multiplu
     };
 }
+const course2 = [
+  {
+    id: "C2_Q1",
+    course: 2,
+    source: "Caiet 2",
+    type: "single",
+    text: "Replicarea ADN-ului are loc în cursul ciclului celular în faza:",
+    options: {
+      A: "G1",
+      B: "S",
+      C: "G2",
+      D: "M"
+    },
+    correct: ["B"],
+    explanation: "Replicarea ADN-ului are loc exclusiv în faza S."
+  },
+  {
+    id: "C2_Q2",
+    course: 2,
+    source: "Caiet 2",
+    type: "single",
+    text: "Replicarea ADN-ului este un proces:",
+    options: {
+      A: "conservativ",
+      B: "dispersiv",
+      C: "semiconservativ",
+      D: "aleator"
+    },
+    correct: ["C"],
+    explanation: "Fiecare moleculă fiică conține o catenă veche și una nouă."
+  },
+  {
+    id: "C2_Q3",
+    course: 2,
+    source: "Caiet 2",
+    type: "single",
+    text: "Enzima responsabilă de sinteza primerilor ARN este:",
+    options: {
+      A: "ADN-polimeraza I",
+      B: "ADN-polimeraza III",
+      C: "primaza",
+      D: "helicaza"
+    },
+    correct: ["C"],
+    explanation: "Primaza sintetizează primerii ARN necesari inițierii replicării."
+  },
+  {
+    id: "C2_Q4",
+    course: 2,
+    source: "Caiet 2",
+    type: "single",
+    text: "Fragmentele Okazaki apar pe:",
+    options: {
+      A: "catena conducătoare",
+      B: "catena întârziată",
+      C: "ambele catene",
+      D: "catena parentală"
+    },
+    correct: ["B"],
+    explanation: "Sinteza discontinuă apare pe catena întârziată."
+  },
+  {
+    id: "C2_Q5",
+    course: 2,
+    source: "Caiet 5",
+    type: "single",
+    text: "ARN-ul mesager (ARNm) are rolul de a:",
+    options: {
+      A: "transporta aminoacizi",
+      B: "forma ribozomi",
+      C: "transporta informația genetică",
+      D: "cataliza reacții"
+    },
+    correct: ["C"],
+    explanation: "ARNm transportă informația genetică de la ADN la ribozomi."
+  },
+  {
+    id: "C2_Q6",
+    course: 2,
+    source: "Caiet 5",
+    type: "single",
+    text: "ARN-ul de transport (ARNt) are ca funcție principală:",
+    options: {
+      A: "recunoașterea codonului",
+      B: "transportul aminoacizilor",
+      C: "inițierea transcripției",
+      D: "formarea nucleozomilor"
+    },
+    correct: ["B"],
+    explanation: "ARNt transportă aminoacizii către ribozomi."
+  },
+  {
+    id: "C2_Q7",
+    course: 2,
+    source: "Caiet 5",
+    type: "single",
+    text: "ARN-ul ribozomal (ARNr):",
+    options: {
+      A: "este tradus în proteină",
+      B: "intră în structura ribozomilor",
+      C: "este degradat rapid",
+      D: "nu se găsește în citoplasmă"
+    },
+    correct: ["B"],
+    explanation: "ARNr este component structural și funcțional al ribozomilor."
+  },
+  {
+    id: "C2_Q8",
+    course: 2,
+    source: "Caiet 6",
+    type: "single",
+    text: "Transcripția are loc în celulele eucariote la nivelul:",
+    options: {
+      A: "citoplasmei",
+      B: "ribozomilor",
+      C: "nucleului",
+      D: "mitocondriei"
+    },
+    correct: ["C"],
+    explanation: "Transcripția ADN-ARN are loc în nucleu."
+  },
+  {
+    id: "C2_Q9",
+    course: 2,
+    source: "Caiet 6",
+    type: "single",
+    text: "ARN-polimeraza necesită pentru inițiere:",
+    options: {
+      A: "primer ARN",
+      B: "primer ADN",
+      C: "secvență promotor",
+      D: "ligază"
+    },
+    correct: ["C"],
+    explanation: "Inițierea transcripției necesită recunoașterea promotorului."
+  },
+  {
+    id: "C2_Q10",
+    course: 2,
+    source: "Caiet 6",
+    type: "single",
+    text: "ARN-ul mitocondrial este codificat de:",
+    options: {
+      A: "genomul nuclear",
+      B: "genomul mitocondrial",
+      C: "ambii genomi",
+      D: "ribozomi"
+    },
+    correct: ["B"],
+    explanation: "Mitocondria are propriul genom circular."
+  },
+
+  /* COMPLEMENT MULTIPLU */
+
+  {
+    id: "C2_Q11",
+    course: 2,
+    source: "Caiet 2",
+    type: "multiple",
+    text: "Caracteristicile replicării ADN-ului:",
+    options: {
+      A: "este bidirecțională",
+      B: "este semiconservativă",
+      C: "necesită primer",
+      D: "are loc continuu pe ambele catene"
+    },
+    correct: ["A", "B", "C"],
+    explanation: "Replicarea este bidirecțională, semiconservativă și necesită primer."
+  },
+  {
+    id: "C2_Q12",
+    course: 2,
+    source: "Caiet 2",
+    type: "multiple",
+    text: "Enzime implicate în replicarea ADN:",
+    options: {
+      A: "helicaza",
+      B: "primaza",
+      C: "ligaza",
+      D: "ARN-polimeraza"
+    },
+    correct: ["A", "B", "C"],
+    explanation: "ARN-polimeraza este implicată în transcripție, nu replicare."
+  },
+  {
+    id: "C2_Q13",
+    course: 2,
+    source: "Caiet 5",
+    type: "multiple",
+    text: "ARN-urile implicate în sinteza proteică:",
+    options: {
+      A: "ARNm",
+      B: "ARNt",
+      C: "ARNr",
+      D: "snARN"
+    },
+    correct: ["A", "B", "C"],
+    explanation: "ARNm, ARNt și ARNr participă direct la sinteza proteică."
+  },
+  {
+    id: "C2_Q14",
+    course: 2,
+    source: "Caiet 6",
+    type: "multiple",
+    text: "Procesarea ARN-ului mesager include:",
+    options: {
+      A: "adăugarea capului 5'",
+      B: "poliadenilarea",
+      C: "splicing",
+      D: "replicarea"
+    },
+    correct: ["A", "B", "C"],
+    explanation: "Procesarea ARNm include cap, coadă poli-A și splicing."
+  },
+  {
+    id: "C2_Q15",
+    course: 2,
+    source: "Caiet 6",
+    type: "multiple",
+    text: "Caracteristicile ADN-ului mitocondrial:",
+    options: {
+      A: "este circular",
+      B: "se moștenește matern",
+      C: "nu conține introni",
+      D: "este asociat cu histone"
+    },
+    correct: ["A", "B", "C"],
+    explanation: "ADN-ul mitocondrial este circular, matern și lipsit de histone."
+  }
+];
+
+export default course2;
