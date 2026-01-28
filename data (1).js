@@ -795,3 +795,160 @@ const course3 = [
 ];
 
 export default course3;
+const course4 = [
+  {
+    id: "C4_Q1",
+    course: 4,
+    source: "Caiet 2",
+    type: "single",
+    text: "Unitatea funcțională a genei este:",
+    options: {
+      A: "segmentul dintre introni",
+      B: "segmentul dintre promotor și terminator",
+      C: "doar secvența codantă",
+      D: "doar exoni consecutivi"
+    },
+    correct: ["B"],
+    explanation: "Unitatea funcțională a genei se întinde între promotor și terminator."
+  },
+  {
+    id: "C4_Q2",
+    course: 4,
+    source: "Caiet 2",
+    type: "single",
+    text: "Intronul:",
+    options: {
+      A: "lipsește din transcriptul primar",
+      B: "se găsește doar în ARNm matur",
+      C: "se găsește în structura transcriptului primar",
+      D: "este secvență codantă"
+    },
+    correct: ["C"],
+    explanation: "Intronii sunt prezenți în transcriptul primar și eliminați prin splicing."
+  },
+  {
+    id: "C4_Q3",
+    course: 4,
+    source: "Caiet 5",
+    type: "single",
+    text: "Exonii:",
+    options: {
+      A: "sunt eliminați în splicing",
+      B: "se găsesc doar în ADN",
+      C: "se regăsesc în ARNm matur",
+      D: "nu conțin informație genetică"
+    },
+    correct: ["C"],
+    explanation: "Exonii sunt secvențe informaționale păstrate în ARNm matur."
+  },
+  {
+    id: "C4_Q4",
+    course: 4,
+    source: "Caiet 6",
+    type: "single",
+    text: "Promotorul unei gene este o secvență:",
+    options: {
+      A: "codificatoare",
+      B: "transcriptibilă",
+      C: "necodificatoare și netranscriptibilă",
+      D: "care face parte din exon"
+    },
+    correct: ["C"],
+    explanation: "Promotorul este regiune reglatoare, netranscriptibilă."
+  },
+  {
+    id: "C4_Q5",
+    course: 4,
+    source: "Caiet 7",
+    type: "single",
+    text: "Regula GT–AG se referă la:",
+    options: {
+      A: "codoni stop",
+      B: "joncțiunile exon–intron",
+      C: "secvența promotorului",
+      D: "terminarea transcripției"
+    },
+    correct: ["B"],
+    explanation: "Intronii încep cu GT și se termină cu AG."
+  },
+  {
+    id: "C4_Q6",
+    course: 4,
+    source: "Caiet 8",
+    type: "single",
+    text: "Transcriptul primar:",
+    options: {
+      A: "conține doar exoni",
+      B: "este identic cu ARNm matur",
+      C: "conține exoni și introni",
+      D: "nu este supus procesării"
+    },
+    correct: ["C"],
+    explanation: "Transcriptul primar conține atât exoni cât și introni."
+  },
+
+  /* COMPLEMENT MULTIPLU */
+
+  {
+    id: "C4_Q7",
+    course: 4,
+    source: "Caiet 2",
+    type: "multiple",
+    text: "Structura unității funcționale a genei include:",
+    options: {
+      A: "promotor",
+      B: "exoni",
+      C: "introni",
+      D: "secvență 5'UTR"
+    },
+    correct: ["A", "B", "C", "D"],
+    explanation: "Toate aceste elemente fac parte din structura genei."
+  },
+  {
+    id: "C4_Q8",
+    course: 4,
+    source: "Caiet 5",
+    type: "multiple",
+    text: "Exonii:",
+    options: {
+      A: "sunt secvențe informaționale",
+      B: "se regăsesc în transcriptul primar",
+      C: "se regăsesc în ARNm matur",
+      D: "sunt eliminați prin splicing"
+    },
+    correct: ["A", "B", "C"],
+    explanation: "Exonii sunt păstrați în ARNm matur."
+  },
+  {
+    id: "C4_Q9",
+    course: 4,
+    source: "Caiet 6",
+    type: "multiple",
+    text: "Regiunile netraduse ale genei (UTR):",
+    options: {
+      A: "sunt 5'UTR și 3'UTR",
+      B: "sunt traduse în aminoacizi",
+      C: "au rol în reglarea expresiei",
+      D: "fac parte din ARNm matur"
+    },
+    correct: ["A", "C", "D"],
+    explanation: "UTR-urile nu sunt traduse, dar au rol regulator."
+  },
+  {
+    id: "C4_Q10",
+    course: 4,
+    source: "Caiet 7",
+    type: "multiple",
+    text: "Secvențele reglatoare ale genei includ:",
+    options: {
+      A: "promotorul",
+      B: "enhancerii",
+      C: "exonii",
+      D: "silencerii"
+    },
+    correct: ["A", "B", "D"],
+    explanation: "Exonii sunt secvențe codificatoare, nu reglatoare."
+  }
+];
+
+export default course4;
