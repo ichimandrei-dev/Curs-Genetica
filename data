@@ -1,0 +1,232 @@
+const course1 = [
+  {
+    id: "C1_Q1",
+    course: 1,
+    source: "Caiet 2",
+    type: "single",
+    text: "Legătura fosfodiesterică, în direcţia 3'-5', între două nucleotide adiacente, se stabilește între gruparea hidroxil (OH) a carbonului:",
+    options: {
+      A: "C1 al pentozei și baza azotată",
+      B: "C2 al pentozei și fosfat",
+      C: "C3 al pentozei și radicalul fosfat al nucleotidei vecine",
+      D: "C5 al pentozei și baza azotată"
+    },
+    correct: ["C"],
+    explanation: "Legătura fosfodiesterică se formează între gruparea OH de la C3 și fosfatul de la C5 al nucleotidei următoare."
+  },
+  {
+    id: "C1_Q2",
+    course: 1,
+    source: "Caiet 2",
+    type: "single",
+    text: "Conformația ADN regăsită predominant în celule, descrisă de Watson și Crick este:",
+    options: {
+      A: "ADN-A",
+      B: "ADN-B",
+      C: "ADN-Z",
+      D: "ADN-C"
+    },
+    correct: ["B"],
+    explanation: "ADN-ul celular predominant este forma B, descrisă de Watson și Crick."
+  },
+  {
+    id: "C1_Q3",
+    course: 1,
+    source: "Caiet 2",
+    type: "single",
+    text: "Numărul estimat al genelor la om este:",
+    options: {
+      A: "5.000",
+      B: "10.000",
+      C: "20.000",
+      D: "100.000"
+    },
+    correct: ["C"],
+    explanation: "Genomul uman conține aproximativ 20.000 de gene codante."
+  },
+  {
+    id: "C1_Q4",
+    course: 1,
+    source: "Caiet 5",
+    type: "single",
+    text: "Caracteristicile moleculei ADN de tip A includ:",
+    options: {
+      A: "diametru de aproximativ 23 Å",
+      B: "șanț major larg",
+      C: "10 perechi de baze per spiră",
+      D: "predomină în celulele umane"
+    },
+    correct: ["A"],
+    explanation: "ADN-A are diametru mai mare (~23 Å) și apare în condiții speciale."
+  },
+  {
+    id: "C1_Q5",
+    course: 1,
+    source: "Caiet 5",
+    type: "single",
+    text: "Structura primară a ADN-ului nuclear conține:",
+    options: {
+      A: "o singură catenă",
+      B: "două catene complementare antiparalele",
+      C: "ARN asociat",
+      D: "catene identice"
+    },
+    correct: ["B"],
+    explanation: "ADN-ul este bicatenar, cu catene complementare și antiparalele."
+  },
+  {
+    id: "C1_Q6",
+    course: 1,
+    source: "Caiet 6",
+    type: "single",
+    text: "În dublul helix de ADN:",
+    options: {
+      A: "există un singur șanț",
+      B: "există două șanțuri laterale",
+      C: "nu există incizuri",
+      D: "șanțurile sunt egale"
+    },
+    correct: ["B"],
+    explanation: "ADN-ul prezintă șanț major și șanț minor."
+  },
+  {
+    id: "C1_Q7",
+    course: 1,
+    source: "Caiet 6",
+    type: "single",
+    text: "Adenozina este:",
+    options: {
+      A: "adenină + dezoxiriboză",
+      B: "adenină + riboză",
+      C: "adenină + fosfat",
+      D: "nucleotid complet"
+    },
+    correct: ["B"],
+    explanation: "Adenozina este un nucleozid format din adenina și riboză."
+  },
+  {
+    id: "C1_Q8",
+    course: 1,
+    source: "Caiet 7",
+    type: "single",
+    text: "Dezoxiriboza din ADN prezintă gruparea hidroxil la carbonul:",
+    options: {
+      A: "1′",
+      B: "2′",
+      C: "3′",
+      D: "5′"
+    },
+    correct: ["C"],
+    explanation: "Dezoxiriboza are grupare OH la C3, nu și la C2."
+  },
+  {
+    id: "C1_Q9",
+    course: 1,
+    source: "Caiet 7",
+    type: "single",
+    text: "Care afirmație se referă la conformația B a ADN-ului:",
+    options: {
+      A: "diametru ~23 Å",
+      B: "diametru ~20 Å",
+      C: "11 pb per spiră",
+      D: "apare doar în ARN"
+    },
+    correct: ["B"],
+    explanation: "ADN-B are diametru de aproximativ 20 Å."
+  },
+  {
+    id: "C1_Q10",
+    course: 1,
+    source: "Caiet 7",
+    type: "single",
+    text: "ADN-ul codant reprezintă aproximativ:",
+    options: {
+      A: "10% din genom",
+      B: "50% din genom",
+      C: "1,5–2% din genom",
+      D: "90% din genom"
+    },
+    correct: ["C"],
+    explanation: "Doar ~1,5–2% din genomul uman este ADN codant."
+  },
+
+  /* COMPLEMENT MULTIPLU */
+
+  {
+    id: "C1_Q11",
+    course: 1,
+    source: "Caiet 2",
+    type: "multiple",
+    text: "Legile lui Chargaff sunt:",
+    options: {
+      A: "A + G = T + C",
+      B: "A/T = 1",
+      C: "G/C = 1",
+      D: "A+T/G+C = 1"
+    },
+    correct: ["A", "B", "C"],
+    explanation: "Legile lui Chargaff descriu proporțiile bazelor azotate."
+  },
+  {
+    id: "C1_Q12",
+    course: 1,
+    source: "Caiet 2",
+    type: "multiple",
+    text: "Componenta glucidică a acizilor nucleici:",
+    options: {
+      A: "este riboză pentru ARN",
+      B: "este dezoxiriboză pentru ARN",
+      C: "leagă purinele prin N9–C1",
+      D: "leagă pirimidinele prin N1–C1"
+    },
+    correct: ["A", "C", "D"],
+    explanation: "Legăturile N-glicozidice diferă pentru purine și pirimidine."
+  },
+  {
+    id: "C1_Q13",
+    course: 1,
+    source: "Caiet 5",
+    type: "multiple",
+    text: "Bazele azotate din structura acizilor nucleici:",
+    options: {
+      A: "sunt purinice și pirimidinice",
+      B: "au ordine randomică pe monocatena ADN",
+      C: "prezintă tautomerie",
+      D: "sunt legate direct de fosfat"
+    },
+    correct: ["A", "B", "C"],
+    explanation: "Bazele azotate au proprietăți structurale specifice."
+  },
+  {
+    id: "C1_Q14",
+    course: 1,
+    source: "Caiet 7",
+    type: "multiple",
+    text: "Dogma centrală a geneticii moleculare:",
+    options: {
+      A: "descrie replicarea ADN",
+      B: "descrie fluxul informației genetice",
+      C: "a fost propusă de Crick",
+      D: "include transcripția inversă"
+    },
+    correct: ["B", "C", "D"],
+    explanation: "Dogma centrală descrie fluxul ADN → ARN → proteină."
+  },
+  {
+    id: "C1_Q15",
+    course: 1,
+    source: "Caiet 8",
+    type: "multiple",
+    text: "Caracteristicile ADN-ului de tip B sunt:",
+    options: {
+      A: "diametru ~23 Å",
+      B: "diametru ~20 Å",
+      C: "10 pb per spiră",
+      D: "pasul elicei ~34 Å"
+    },
+    correct: ["B", "C", "D"],
+    explanation: "ADN-B are 10 pb per spiră și pas de ~34 Å."
+  }
+];
+
+export default course1;
